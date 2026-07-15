@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MINILOTO ANALYZER</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🎱 MINILOTO ANALYZER</h1>
+    <p class="subtitle">統計分析 × AI予想</p>
+    <div class="stats-bar" id="statsBar"></div>
+  </header>
+
+  <div id="periodSection" class="period-section" style="display:none">
+    <div class="period-slider-wrap">
+      <label class="period-label">📅 分析期間</label>
+      <input type="range" id="periodSlider" class="period-slider">
+      <div id="periodDisplay" class="period-display"></div>
+    </div>
+  </div>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="prediction">🤖 AI予想</button>
+    <button class="tab" data-tab="frequency">📊 出現頻度</button>
+    <button class="tab" data-tab="pull">🔗 引っ張り</button>
+    <button class="tab" data-tab="zone">🎯 数字帯</button>
+    <button class="tab" data-tab="pair">💎 ペア</button>
+    <button class="tab" data-tab="recent">🎱 直近結果</button>
+    <button class="tab" data-tab="montecarlo">🎲 モンテカルロ信頼度</button>
+    <button class="tab" data-tab="archive">📁 アーカイブ</button>
+  </nav>
+
+  <main>
+    <!-- AI予想 -->
+    <section id="tab-prediction" class="tab-content active">
+      <div id="predictionResult"></div>
+      <div class="glossary-box">
+        <h4>📖 用語説明</h4>
+        <dl class="glossary">
+          <dt>干ばつ度</dt><dd>その数字の平均出現間隔に対して、今どれだけ出ていないかの倍率。1.0なら平均通り、2.0なら平均の2倍出ていない。</dd>
+          <dt>N回周期</dt><dd>各数字が「だいたいN回おきに出る」という周期パターンを検出。次の出現タイミングに近いほどスコアが高い。</dd>
+          <dt>ランダムフォレスト</dt><dd>機械学習モデル。過去の出現パターン（直近20回の出現履歴、出現率、間隔等）から次回の出現確率を予測。100本の決定木の多数決で判断。</dd>
+          <dt>LSTM</dt><dd>時系列ディープラーニングモデル。各数字の出現/未出現の時系列データを学習し、パターンの「流れ」から次回の出現確率を予測。</dd>
+          <dt>🎲 モンテカルロ信頼度</dt><dd>各数字の統計スコアを重みとした抽選を1万回シミュレーションし、その数字が選ばれた割合。詳しくは「モンテカルロ信頼度」タブを参照。</dd>
+          <dt>奇偶比率</dt><dd>5個中の奇数と偶数の内訳。過去データでは3:2〜2:3が多い。</dd>
+          <dt>合計値</dt><dd>5個の合計。各期間の平均±1標準偏差の範囲に収まるよう制約。</dd>
+          <dt>分析期間</dt><dd>各カードに直近100〜400回・全期間の予想を並べて表示。直近に絞るほど「最近の傾向」を、全期間は長期的な安定傾向を反映。</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 出現頻度 -->
+    <section id="tab-frequency" class="tab-content">
+      <div class="chart-container">
+        <canvas id="freqChart"></canvas>
+      </div>
+      <div class="two-col">
+        <div class="card">
+          <h3>🔥 ホットTOP10</h3>
+          <div id="hotList"></div>
+        </div>
+        <div class="card">
+          <h3>❄️ コールドTOP10</h3>
+          <div id="coldList"></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>⏰ 出現間隔（干ばつ）</h3>
+        <div id="droughtGrid" class="number-grid"></div>
+      </div>
+      <div class="glossary-box">
+        <h4>📖 用語説明</h4>
+        <dl class="glossary">
+          <dt>出現頻度</dt><dd>その期間で数字が何回出たかの割合。高いほど「よく出る数字」。</dd>
+          <dt>直近頻度</dt><dd>直近100回・300回に限定した出現率。全期間より高ければ「最近調子が良い」数字。</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 引っ張り -->
+    <section id="tab-pull" class="tab-content">
+      <div class="metric-big" id="pullAvg"></div>
+      <div class="chart-container">
+        <canvas id="pullChart"></canvas>
+      </div>
+      <div class="card">
+        <h3>直近の引っ張り状況</h3>
+        <div id="pullTable"></div>
+      </div>
+      <div class="glossary-box">
+        <h4>📖 用語説明</h4>
+        <dl class="glossary">
+          <dt>引っ張り</dt><dd>直近5回の抽選で何回出たかを加重評価。最新回ほど重く計算し、連続出現の勢いを測る。前回と同じ数字が続けて出る傾向。</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 数字帯 -->
+    <section id="tab-zone" class="tab-content">
+      <div class="chart-container chart-small">
+        <canvas id="zoneChart"></canvas>
+      </div>
+      <div class="card">
+        <h3>帯パターン頻度TOP10</h3>
+        <div id="zonePatterns"></div>
+      </div>
+      <div class="glossary-box">
+        <h4>📖 用語説明</h4>
+        <dl class="glossary">
+          <dt>数字帯</dt><dd>低帯(1-10)・中帯(11-21)・高帯(22-31)の3グループの内訳。各帯からバランスよく出る傾向があり、予想では各帯から最大3個までを選出。</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ペア -->
+    <section id="tab-pair" class="tab-content">
+      <div class="card">
+        <h3>TOP30 ペア</h3>
+        <div id="pairTable"></div>
+      </div>
+      <div class="card">
+        <h3>数字を選択 → 相性の良い数字</h3>
+        <div class="number-selector" id="numberSelector"></div>
+        <div id="affinityResult"></div>
+      </div>
+      <div class="glossary-box">
+        <h4>📖 用語説明</h4>
+        <dl class="glossary">
+          <dt>ペア相性</dt><dd>選出済みの他の数字と過去に同時に出た回数。全期間60%＋直近200回40%の混合評価。</dd>
+          <dt>連番傾向</dt><dd>隣り合う数字（例: 14と15）が一緒に出やすい傾向があるかの指標。</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 直近結果 -->
+    <section id="tab-recent" class="tab-content">
+      <div class="card">
+        <div id="recentTable"></div>
+      </div>
+    </section>
+
+    <!-- アーカイブ -->
+    <section id="tab-archive" class="tab-content">
+      <div id="archiveList"></div>
+    </section>
+
+    <!-- モンテカルロ信頼度 -->
+    <section id="tab-montecarlo" class="tab-content">
+      <div class="card">
+        <h3>🎲 モンテカルロ・シミュレーションとは</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.7;">
+          コンピュータ上で「重み付きの数字選出」を何万回も仮想的に繰り返し、
+          その結果の分布から各数字の有力度を確率的に推定する手法です。
+        </p>
+      </div>
+      <div class="card">
+        <h3>予想数字のモンテカルロ信頼度</h3>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.8rem;">
+          各数字の統計スコアを重みとして、5個を選ぶ抽選を1万回シミュレーション。各数字が選ばれた割合(%)を「信頼度」として算出しています（AI予想タブの「選出根拠」内にも表示）。数字が大きいほど有力です。
+        </p>
+        <div id="mcConfidenceGrid" class="number-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="disclaimer">
+      ⚠️ 本ツールは過去の抽選データに基づく統計分析であり、将来の当選を予測・保証するものではありません。宝くじの購入は自己責任でお願いします。
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

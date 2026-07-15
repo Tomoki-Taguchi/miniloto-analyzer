@@ -1,0 +1,40 @@
+name: Update MiniLoto Data
+
+on:
+    schedule:
+      - cron: '0 0 * * *'
+      - cron: '15 10 * * 2'
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    update:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v4
+
+        - uses: actions/setup-python@v5
+          with:
+            python-version: '3.12'
+
+        - name: Install PyTorch CPU
+          run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+        - name: Install other dependencies
+          run: pip install -r scripts/requirements.txt
+
+        - name: Fetch latest data
+          run: python scripts/fetch_data.py
+
+        - name: Run analysis
+          run: python scripts/analyze.py
+
+        - name: Commit and push
+          run: |
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add docs/data/
+            git diff --staged --quiet || git commit -m "Update MiniLoto data $(date -u +%Y-%m-%d)"
+            git push
