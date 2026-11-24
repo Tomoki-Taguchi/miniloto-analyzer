@@ -63881,8 +63881,18 @@
     "predicted_round": 1414,
     "data_up_to_round": 1413,
     "generated_at": "2026-11-17T19:09:24.690620",
-    "actual": null,
-    "verified": false,
+    "actual": {
+      "numbers": [
+        2,
+        10,
+        11,
+        24,
+        31
+      ],
+      "bonus": 3,
+      "date": "2026-11-24"
+    },
+    "verified": true,
     "predictions_by_period": {
       "100": {
         "label": "直近100回",
@@ -64000,9 +64010,11 @@
               "sum_std": 19.3,
               "sum_range": "67〜105"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 1,
+            "matched_numbers": [
+              24
+            ],
+            "bonus_matched": false
           },
           "frequency_heavy": {
             "mode_name": "出現頻度重視",
@@ -64115,9 +64127,9 @@
               "sum_std": 19.3,
               "sum_range": "67〜105"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 0,
+            "matched_numbers": [],
+            "bonus_matched": false
           },
           "pull_heavy": {
             "mode_name": "引っ張り重視",
@@ -64230,9 +64242,9 @@
               "sum_std": 19.3,
               "sum_range": "67〜105"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 0,
+            "matched_numbers": [],
+            "bonus_matched": false
           },
           "zone_balanced": {
             "mode_name": "数字帯バランス重視",
@@ -64345,9 +64357,9 @@
               "sum_std": 19.3,
               "sum_range": "67〜105"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 0,
+            "matched_numbers": [],
+            "bonus_matched": false
           },
           "pair_heavy": {
             "mode_name": "ペア重視",
@@ -64460,9 +64472,12 @@
               "sum_std": 19.3,
               "sum_range": "67〜105"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 2,
+            "matched_numbers": [
+              24,
+              31
+            ],
+            "bonus_matched": false
           },
           "ml_heavy": {
             "mode_name": "AI(RF+LSTM)重視",
@@ -64575,9 +64590,12 @@
               "sum_std": 19.3,
               "sum_range": "67〜105"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 2,
+            "matched_numbers": [
+              10,
+              31
+            ],
+            "bonus_matched": false
           }
         }
       },
@@ -64697,9 +64715,12 @@
               "sum_std": 19.7,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 2,
+            "matched_numbers": [
+              11,
+              31
+            ],
+            "bonus_matched": false
           },
           "frequency_heavy": {
             "mode_name": "出現頻度重視",
@@ -64812,9 +64833,11 @@
               "sum_std": 19.7,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 1,
+            "matched_numbers": [
+              10
+            ],
+            "bonus_matched": false
           },
           "pull_heavy": {
             "mode_name": "引っ張り重視",
@@ -64927,9 +64950,12 @@
               "sum_std": 19.7,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 2,
+            "matched_numbers": [
+              10,
+              11
+            ],
+            "bonus_matched": false
           },
           "zone_balanced": {
             "mode_name": "数字帯バランス重視",
@@ -65042,9 +65068,12 @@
               "sum_std": 19.7,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 2,
+            "matched_numbers": [
+              2,
+              11
+            ],
+            "bonus_matched": false
           },
           "pair_heavy": {
             "mode_name": "ペア重視",
@@ -65157,9 +65186,11 @@
               "sum_std": 19.7,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 1,
+            "matched_numbers": [
+              11
+            ],
+            "bonus_matched": false
           },
           "ml_heavy": {
             "mode_name": "AI(RF+LSTM)重視",
@@ -65272,9 +65303,12 @@
               "sum_std": 19.7,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 2,
+            "matched_numbers": [
+              10,
+              31
+            ],
+            "bonus_matched": false
           }
         }
       },
@@ -65394,9 +65428,12 @@
               "sum_std": 19.9,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 2,
+            "matched_numbers": [
+              2,
+              11
+            ],
+            "bonus_matched": false
           },
           "frequency_heavy": {
             "mode_name": "出現頻度重視",
@@ -65509,9 +65546,11 @@
               "sum_std": 19.9,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 1,
+            "matched_numbers": [
+              11
+            ],
+            "bonus_matched": false
           },
           "pull_heavy": {
             "mode_name": "引っ張り重視",
@@ -65624,9 +65663,11 @@
               "sum_std": 19.9,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 1,
+            "matched_numbers": [
+              31
+            ],
+            "bonus_matched": false
           },
           "zone_balanced": {
             "mode_name": "数字帯バランス重視",
@@ -65739,9 +65780,13 @@
               "sum_std": 19.9,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 3,
+            "matched_numbers": [
+              10,
+              11,
+              31
+            ],
+            "bonus_matched": false
           },
           "pair_heavy": {
             "mode_name": "ペア重視",
@@ -65854,9 +65899,9 @@
               "sum_std": 19.9,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 0,
+            "matched_numbers": [],
+            "bonus_matched": false
           },
           "ml_heavy": {
             "mode_name": "AI(RF+LSTM)重視",
@@ -65969,9 +66014,11 @@
               "sum_std": 19.9,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 1,
+            "matched_numbers": [
+              2
+            ],
+            "bonus_matched": false
           }
         }
       },
@@ -66091,9 +66138,11 @@
               "sum_std": 19.8,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 1,
+            "matched_numbers": [
+              31
+            ],
+            "bonus_matched": false
           },
           "frequency_heavy": {
             "mode_name": "出現頻度重視",
@@ -66206,9 +66255,9 @@
               "sum_std": 19.8,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 0,
+            "matched_numbers": [],
+            "bonus_matched": false
           },
           "pull_heavy": {
             "mode_name": "引っ張り重視",
@@ -66321,9 +66370,11 @@
               "sum_std": 19.8,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 1,
+            "matched_numbers": [
+              11
+            ],
+            "bonus_matched": false
           },
           "zone_balanced": {
             "mode_name": "数字帯バランス重視",
@@ -66436,9 +66487,11 @@
               "sum_std": 19.8,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 1,
+            "matched_numbers": [
+              11
+            ],
+            "bonus_matched": false
           },
           "pair_heavy": {
             "mode_name": "ペア重視",
@@ -66551,9 +66604,9 @@
               "sum_std": 19.8,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 0,
+            "matched_numbers": [],
+            "bonus_matched": false
           },
           "ml_heavy": {
             "mode_name": "AI(RF+LSTM)重視",
@@ -66666,9 +66719,9 @@
               "sum_std": 19.8,
               "sum_range": "62〜102"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 0,
+            "matched_numbers": [],
+            "bonus_matched": false
           }
         }
       },
@@ -66788,9 +66841,11 @@
               "sum_std": 18.8,
               "sum_range": "62〜100"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 1,
+            "matched_numbers": [
+              24
+            ],
+            "bonus_matched": false
           },
           "frequency_heavy": {
             "mode_name": "出現頻度重視",
@@ -66903,9 +66958,11 @@
               "sum_std": 18.8,
               "sum_range": "62〜100"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 1,
+            "matched_numbers": [
+              24
+            ],
+            "bonus_matched": false
           },
           "pull_heavy": {
             "mode_name": "引っ張り重視",
@@ -67018,9 +67075,13 @@
               "sum_std": 18.8,
               "sum_range": "62〜100"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 3,
+            "matched_numbers": [
+              2,
+              11,
+              31
+            ],
+            "bonus_matched": false
           },
           "zone_balanced": {
             "mode_name": "数字帯バランス重視",
@@ -67133,9 +67194,13 @@
               "sum_std": 18.8,
               "sum_range": "62〜100"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 3,
+            "matched_numbers": [
+              10,
+              11,
+              31
+            ],
+            "bonus_matched": false
           },
           "pair_heavy": {
             "mode_name": "ペア重視",
@@ -67248,9 +67313,9 @@
               "sum_std": 18.8,
               "sum_range": "62〜100"
             },
-            "match_count": null,
-            "matched_numbers": null,
-            "bonus_matched": null
+            "match_count": 0,
+            "matched_numbers": [],
+            "bonus_matched": false
           },
           "ml_heavy": {
             "mode_name": "AI(RF+LSTM)重視",
@@ -67359,6 +67424,3502 @@
               "odd_even": "3:2",
               "zones": "2-1-2",
               "sum": 87,
+              "avg_sum": 81.0,
+              "sum_std": 18.8,
+              "sum_range": "62〜100"
+            },
+            "match_count": 1,
+            "matched_numbers": [
+              10
+            ],
+            "bonus_matched": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "predicted_round": 1415,
+    "data_up_to_round": 1414,
+    "generated_at": "2026-11-24T20:38:24.306742",
+    "actual": null,
+    "verified": false,
+    "predictions_by_period": {
+      "100": {
+        "label": "直近100回",
+        "range": "第1315回〜第1414回",
+        "draws": 100,
+        "modes": {
+          "balanced": {
+            "mode_name": "総合予想",
+            "numbers": [
+              10,
+              11,
+              16,
+              29,
+              31
+            ],
+            "bonus": 20,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。出現率22.0%と高頻度。平均間隔の3.2倍（12回）未出現。",
+            "reasons": {
+              "10": {
+                "score": 0.3593,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率59.8%と高く予測。他の選出数字との相性も良好。低帯(1-10)。",
+                "details": {
+                  "freq": 0.2727,
+                  "recent": 0.2727,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 1.0,
+                  "cycle": 0.0,
+                  "rf": 0.9863,
+                  "lstm": 0.3504,
+                  "random": 0.0874,
+                  "pair": 0.6667
+                },
+                "monte_carlo_pct": 16.88
+              },
+              "11": {
+                "score": 0.3412,
+                "top_factor": "freq",
+                "reason_text": "全100回中17回出現（17.0%）と高い出現頻度を記録。前回の抽選でも出現。中帯(11-21)。",
+                "details": {
+                  "freq": 0.3636,
+                  "recent": 0.3636,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 0.2,
+                  "cycle": 0.0,
+                  "rf": 0.3375,
+                  "lstm": 0.3836,
+                  "random": 0.92,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 15.03
+              },
+              "16": {
+                "score": 0.4386,
+                "top_factor": "drought",
+                "reason_text": "平均6回間隔に対し16回未出現（2.8倍の遅延）で出現期待が高い。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.2727,
+                  "recent": 0.2727,
+                  "drought": 0.8771,
+                  "pull": 0.0,
+                  "consec": 0.3,
+                  "cycle": 1.0,
+                  "rf": 0.3802,
+                  "lstm": 0.2239,
+                  "random": 0.5561,
+                  "pair": 0.3333
+                },
+                "monte_carlo_pct": 22.62
+              },
+              "29": {
+                "score": 0.6752,
+                "top_factor": "drought",
+                "reason_text": "平均4回間隔に対し12回未出現（3.2倍の遅延）で出現期待が高い。全期間出現率24.0%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6818,
+                  "recent": 0.6818,
+                  "drought": 0.9815,
+                  "pull": 0.0,
+                  "consec": 0.8,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.6526,
+                  "random": 0.5222,
+                  "pair": 0.5714
+                },
+                "monte_carlo_pct": 34.63
+              },
+              "31": {
+                "score": 0.6431,
+                "top_factor": "freq",
+                "reason_text": "全100回中31回出現（31.0%）と高い出現頻度を記録。前回の抽選でも出現。高帯(22-31)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 1.0,
+                  "drought": 0.0,
+                  "pull": 1.0,
+                  "consec": 0.5,
+                  "cycle": 0.0,
+                  "rf": 0.3135,
+                  "lstm": 1.0,
+                  "random": 0.8954,
+                  "pair": 0.5556
+                },
+                "monte_carlo_pct": 29.89
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 97,
+              "avg_sum": 85.5,
+              "sum_std": 19.1,
+              "sum_range": "66〜105"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "frequency_heavy": {
+            "mode_name": "出現頻度重視",
+            "numbers": [
+              1,
+              3,
+              16,
+              29,
+              30
+            ],
+            "bonus": 31,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。出現率31.0%と高頻度。前回も出現。",
+            "reasons": {
+              "1": {
+                "score": 0.4603,
+                "top_factor": "freq",
+                "reason_text": "全100回中17回出現（17.0%）と高い出現頻度を記録。約1回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.3636,
+                  "recent": 0.3636,
+                  "drought": 0.7332,
+                  "pull": 0.0,
+                  "consec": 0.0,
+                  "cycle": 1.0,
+                  "rf": 0.2911,
+                  "lstm": 0.3672,
+                  "random": 0.8905,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 20.8
+              },
+              "3": {
+                "score": 0.5042,
+                "top_factor": "freq",
+                "reason_text": "全100回中23回出現（23.0%）と高い出現頻度を記録。約1回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6364,
+                  "recent": 0.6364,
+                  "drought": 0.1479,
+                  "pull": 0.3506,
+                  "consec": 0.7,
+                  "cycle": 1.0,
+                  "rf": 0.2086,
+                  "lstm": 0.5877,
+                  "random": 0.1809,
+                  "pair": 0.8333
+                },
+                "monte_carlo_pct": 27.72
+              },
+              "16": {
+                "score": 0.4731,
+                "top_factor": "freq",
+                "reason_text": "全100回中15回出現（15.0%）と高い出現頻度を記録。平均間隔の2.8倍となる16回未出現。中帯(11-21)。",
+                "details": {
+                  "freq": 0.2727,
+                  "recent": 0.2727,
+                  "drought": 0.8771,
+                  "pull": 0.0,
+                  "consec": 0.3,
+                  "cycle": 1.0,
+                  "rf": 0.3802,
+                  "lstm": 0.2239,
+                  "random": 0.9257,
+                  "pair": 0.3529
+                },
+                "monte_carlo_pct": 19.38
+              },
+              "29": {
+                "score": 0.6921,
+                "top_factor": "freq",
+                "reason_text": "全100回中24回出現（24.0%）と高い出現頻度を記録。平均間隔の3.2倍となる12回未出現。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6818,
+                  "recent": 0.6818,
+                  "drought": 0.9815,
+                  "pull": 0.0,
+                  "consec": 0.8,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.6526,
+                  "random": 0.6549,
+                  "pair": 0.6667
+                },
+                "monte_carlo_pct": 34.47
+              },
+              "30": {
+                "score": 0.4839,
+                "top_factor": "freq",
+                "reason_text": "全100回中17回出現（17.0%）と高い出現頻度を記録。約1回周期のタイミング。高帯(22-31)。",
+                "details": {
+                  "freq": 0.3636,
+                  "recent": 0.3636,
+                  "drought": 0.2082,
+                  "pull": 0.1039,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 0.3394,
+                  "lstm": 0.3683,
+                  "random": 0.9206,
+                  "pair": 0.2857
+                },
+                "monte_carlo_pct": 19.43
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-1-2",
+              "sum": 79,
+              "avg_sum": 85.5,
+              "sum_std": 19.1,
+              "sum_range": "66〜105"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "pull_heavy": {
+            "mode_name": "引っ張り重視",
+            "numbers": [
+              3,
+              4,
+              20,
+              29,
+              31
+            ],
+            "bonus": 10,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。出現率15.0%と高頻度。前回も出現。",
+            "reasons": {
+              "3": {
+                "score": 0.4331,
+                "top_factor": "pull",
+                "reason_text": "直近5回中2回出現しており、連続出現の勢いあり。他の選出数字との相性も良好。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6364,
+                  "recent": 0.6364,
+                  "drought": 0.1479,
+                  "pull": 0.3506,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 0.2086,
+                  "lstm": 0.5877,
+                  "random": 0.056,
+                  "pair": 0.8182
+                },
+                "monte_carlo_pct": 25.53
+              },
+              "4": {
+                "score": 0.4179,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。平均間隔の1.8倍となる10回未出現。低帯(1-10)。",
+                "details": {
+                  "freq": 0.3636,
+                  "recent": 0.3636,
+                  "drought": 0.5621,
+                  "pull": 0.0,
+                  "consec": 0.1,
+                  "cycle": 0.3333,
+                  "rf": 0.4738,
+                  "lstm": 0.2431,
+                  "random": 0.9075,
+                  "pair": 0.8889
+                },
+                "monte_carlo_pct": 12.66
+              },
+              "20": {
+                "score": 0.4642,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。平均間隔の3.2倍となる12回未出現。中帯(11-21)。",
+                "details": {
+                  "freq": 0.5909,
+                  "recent": 0.5909,
+                  "drought": 1.0,
+                  "pull": 0.0,
+                  "consec": 0.2,
+                  "cycle": 1.0,
+                  "rf": 0.3355,
+                  "lstm": 0.6947,
+                  "random": 0.4346,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 22.22
+              },
+              "29": {
+                "score": 0.5172,
+                "top_factor": "drought",
+                "reason_text": "平均4回間隔に対し12回未出現（3.2倍の遅延）で出現期待が高い。RF予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6818,
+                  "recent": 0.6818,
+                  "drought": 0.9815,
+                  "pull": 0.0,
+                  "consec": 0.8,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.6526,
+                  "random": 0.8185,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 27.72
+              },
+              "31": {
+                "score": 0.641,
+                "top_factor": "pull",
+                "reason_text": "直近5回中3回出現しており、連続出現の勢いあり。全期間出現率31.0%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 1.0,
+                  "drought": 0.0,
+                  "pull": 1.0,
+                  "consec": 0.5,
+                  "cycle": 0.0,
+                  "rf": 0.3135,
+                  "lstm": 1.0,
+                  "random": 0.6614,
+                  "pair": 0.1667
+                },
+                "monte_carlo_pct": 37.21
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-1-2",
+              "sum": 87,
+              "avg_sum": 85.5,
+              "sum_std": 19.1,
+              "sum_range": "66〜105"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "zone_balanced": {
+            "mode_name": "数字帯バランス重視",
+            "numbers": [
+              3,
+              12,
+              18,
+              25,
+              29
+            ],
+            "bonus": 20,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。出現率22.0%と高頻度。平均間隔の3.2倍（12回）未出現。",
+            "reasons": {
+              "3": {
+                "score": 0.481,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。全期間出現率23.0%と安定して高い。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6364,
+                  "recent": 0.6364,
+                  "drought": 0.1479,
+                  "pull": 0.3506,
+                  "consec": 0.7,
+                  "cycle": 1.0,
+                  "rf": 0.2086,
+                  "lstm": 0.5877,
+                  "random": 0.3977,
+                  "pair": 0.5294
+                },
+                "monte_carlo_pct": 25.89
+              },
+              "12": {
+                "score": 0.4622,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。他の選出数字との相性も良好。中帯(11-21)。",
+                "details": {
+                  "freq": 0.3636,
+                  "recent": 0.3636,
+                  "drought": 0.1178,
+                  "pull": 0.3506,
+                  "consec": 0.1,
+                  "cycle": 1.0,
+                  "rf": 0.1479,
+                  "lstm": 0.3218,
+                  "random": 0.6736,
+                  "pair": 0.5455
+                },
+                "monte_carlo_pct": 18.81
+              },
+              "18": {
+                "score": 0.4645,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。他の選出数字との相性も良好。中帯(11-21)。",
+                "details": {
+                  "freq": 0.1818,
+                  "recent": 0.1818,
+                  "drought": 0.0408,
+                  "pull": 0.4286,
+                  "consec": 0.2,
+                  "cycle": 0.5,
+                  "rf": 0.5488,
+                  "lstm": 0.082,
+                  "random": 0.9317,
+                  "pair": 0.4286
+                },
+                "monte_carlo_pct": 14.14
+              },
+              "25": {
+                "score": 0.4107,
+                "top_factor": "cycle",
+                "reason_text": "約2回周期で出現するパターンを検出、次の出現タイミングに該当。全期間出現率18.0%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.4091,
+                  "recent": 0.4091,
+                  "drought": 0.1143,
+                  "pull": 0.1948,
+                  "consec": 0.7,
+                  "cycle": 0.5,
+                  "rf": 0.0786,
+                  "lstm": 0.2137,
+                  "random": 0.8041,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 15.66
+              },
+              "29": {
+                "score": 0.6802,
+                "top_factor": "drought",
+                "reason_text": "平均4回間隔に対し12回未出現（3.2倍の遅延）で出現期待が高い。約1回周期のタイミング。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6818,
+                  "recent": 0.6818,
+                  "drought": 0.9815,
+                  "pull": 0.0,
+                  "consec": 0.8,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.6526,
+                  "random": 0.6713,
+                  "pair": 0.25
+                },
+                "monte_carlo_pct": 34.93
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 87,
+              "avg_sum": 85.5,
+              "sum_std": 19.1,
+              "sum_range": "66〜105"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "pair_heavy": {
+            "mode_name": "ペア重視",
+            "numbers": [
+              3,
+              8,
+              21,
+              26,
+              29
+            ],
+            "bonus": 16,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。出現率15.0%と高頻度。平均間隔の2.8倍（16回）未出現。",
+            "reasons": {
+              "3": {
+                "score": 0.5259,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約1回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6364,
+                  "recent": 0.6364,
+                  "drought": 0.1479,
+                  "pull": 0.3506,
+                  "consec": 0.7,
+                  "cycle": 1.0,
+                  "rf": 0.2086,
+                  "lstm": 0.5877,
+                  "random": 0.5924,
+                  "pair": 0.5
+                },
+                "monte_carlo_pct": 25.03
+              },
+              "8": {
+                "score": 0.3846,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約5回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.0,
+                  "recent": 0.0,
+                  "drought": 0.3677,
+                  "pull": 0.0,
+                  "consec": 0.2,
+                  "cycle": 0.6,
+                  "rf": 0.3175,
+                  "lstm": 0.0129,
+                  "random": 0.7841,
+                  "pair": 0.4286
+                },
+                "monte_carlo_pct": 10.05
+              },
+              "21": {
+                "score": 0.2545,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。全期間出現率16.0%と安定して高い。中帯(11-21)。",
+                "details": {
+                  "freq": 0.3182,
+                  "recent": 0.3182,
+                  "drought": 0.29,
+                  "pull": 0.0,
+                  "consec": 0.2,
+                  "cycle": 1.0,
+                  "rf": 0.2706,
+                  "lstm": 0.1889,
+                  "random": 0.3559,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 15.9
+              },
+              "26": {
+                "score": 0.2655,
+                "top_factor": "consec",
+                "reason_text": "連番を含む抽選で出やすい傾向がある。全期間出現率16.0%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.3182,
+                  "recent": 0.3182,
+                  "drought": 0.1995,
+                  "pull": 0.1039,
+                  "consec": 0.7,
+                  "cycle": 0.1111,
+                  "rf": 0.1854,
+                  "lstm": 0.2402,
+                  "random": 0.5282,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 13.47
+              },
+              "29": {
+                "score": 0.7359,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。平均間隔の3.2倍となる12回未出現。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6818,
+                  "recent": 0.6818,
+                  "drought": 0.9815,
+                  "pull": 0.0,
+                  "consec": 0.8,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.6526,
+                  "random": 0.8239,
+                  "pair": 0.6667
+                },
+                "monte_carlo_pct": 35.85
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-1-2",
+              "sum": 87,
+              "avg_sum": 85.5,
+              "sum_std": 19.1,
+              "sum_range": "66〜105"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "ml_heavy": {
+            "mode_name": "AI(RF+LSTM)重視",
+            "numbers": [
+              3,
+              10,
+              16,
+              23,
+              29
+            ],
+            "bonus": 20,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。出現率22.0%と高頻度。平均間隔の3.2倍（12回）未出現。",
+            "reasons": {
+              "3": {
+                "score": 0.5088,
+                "top_factor": "lstm",
+                "reason_text": "LSTMが時系列パターンから出現確率24.7%と予測。約1回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6364,
+                  "recent": 0.6364,
+                  "drought": 0.1479,
+                  "pull": 0.3506,
+                  "consec": 0.7,
+                  "cycle": 1.0,
+                  "rf": 0.2086,
+                  "lstm": 0.5877,
+                  "random": 0.6233,
+                  "pair": 0.6667
+                },
+                "monte_carlo_pct": 24.08
+              },
+              "10": {
+                "score": 0.438,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率59.8%と高く予測。LSTM予測でも高評価。低帯(1-10)。",
+                "details": {
+                  "freq": 0.2727,
+                  "recent": 0.2727,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 0.3,
+                  "cycle": 0.0,
+                  "rf": 0.9863,
+                  "lstm": 0.3504,
+                  "random": 0.3052,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 24.76
+              },
+              "16": {
+                "score": 0.4874,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率23.0%と高く予測。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.2727,
+                  "recent": 0.2727,
+                  "drought": 0.8771,
+                  "pull": 0.0,
+                  "consec": 0.3,
+                  "cycle": 1.0,
+                  "rf": 0.3802,
+                  "lstm": 0.2239,
+                  "random": 0.8518,
+                  "pair": 0.2308
+                },
+                "monte_carlo_pct": 20.17
+              },
+              "23": {
+                "score": 0.3912,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率37.3%と高く予測。平均間隔の1.4倍となる13回未出現。高帯(22-31)。",
+                "details": {
+                  "freq": 0.0,
+                  "recent": 0.0,
+                  "drought": 0.4231,
+                  "pull": 0.0,
+                  "consec": 0.1,
+                  "cycle": 0.0803,
+                  "rf": 0.6154,
+                  "lstm": 0.0379,
+                  "random": 0.8715,
+                  "pair": 0.1875
+                },
+                "monte_carlo_pct": 13.61
+              },
+              "29": {
+                "score": 0.6141,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率60.6%と高く予測。LSTM予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6818,
+                  "recent": 0.6818,
+                  "drought": 0.9815,
+                  "pull": 0.0,
+                  "consec": 0.8,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.6526,
+                  "random": 0.054,
+                  "pair": 0.4667
+                },
+                "monte_carlo_pct": 36.39
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-1-2",
+              "sum": 81,
+              "avg_sum": 85.5,
+              "sum_std": 19.1,
+              "sum_range": "66〜105"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          }
+        }
+      },
+      "200": {
+        "label": "直近200回",
+        "range": "第1215回〜第1414回",
+        "draws": 200,
+        "modes": {
+          "balanced": {
+            "mode_name": "総合予想",
+            "numbers": [
+              1,
+              7,
+              12,
+              29,
+              30
+            ],
+            "bonus": 4,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。出現率20.0%と高頻度。平均間隔の2.1倍（10回）未出現。",
+            "reasons": {
+              "1": {
+                "score": 0.5507,
+                "top_factor": "drought",
+                "reason_text": "平均5回間隔に対し12回未出現（2.5倍の遅延）で出現期待が高い。全期間出現率20.0%と安定して高い。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6129,
+                  "recent": 0.4433,
+                  "drought": 0.9285,
+                  "pull": 0.0,
+                  "consec": 0.0769,
+                  "cycle": 1.0,
+                  "rf": 0.1442,
+                  "lstm": 0.3771,
+                  "random": 0.7552,
+                  "pair": 0.6667
+                },
+                "monte_carlo_pct": 24.1
+              },
+              "7": {
+                "score": 0.2283,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。低帯(1-10)。",
+                "details": {
+                  "freq": 0.2258,
+                  "recent": 0.134,
+                  "drought": 0.3706,
+                  "pull": 0.0,
+                  "consec": 0.0769,
+                  "cycle": 1.0,
+                  "rf": 0.0951,
+                  "lstm": 0.1147,
+                  "random": 0.0152,
+                  "pair": 0.2692
+                },
+                "monte_carlo_pct": 12.71
+              },
+              "12": {
+                "score": 0.3795,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。全期間出現率18.0%と安定して高い。中帯(11-21)。",
+                "details": {
+                  "freq": 0.4839,
+                  "recent": 0.4021,
+                  "drought": 0.1324,
+                  "pull": 0.3506,
+                  "consec": 0.5385,
+                  "cycle": 1.0,
+                  "rf": 0.2139,
+                  "lstm": 0.4203,
+                  "random": 0.3856,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 21.09
+              },
+              "29": {
+                "score": 0.5881,
+                "top_factor": "drought",
+                "reason_text": "平均5回間隔に対し12回未出現（2.6倍の遅延）で出現期待が高い。全期間出現率20.0%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6129,
+                  "recent": 0.6598,
+                  "drought": 0.9483,
+                  "pull": 0.0,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.6713,
+                  "random": 0.0556,
+                  "pair": 0.44
+                },
+                "monte_carlo_pct": 32.21
+              },
+              "30": {
+                "score": 0.4976,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。全期間出現率17.0%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.4194,
+                  "recent": 0.3814,
+                  "drought": 0.2574,
+                  "pull": 0.1039,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 0.3194,
+                  "lstm": 0.3988,
+                  "random": 0.8952,
+                  "pair": 0.3158
+                },
+                "monte_carlo_pct": 21.55
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-1-2",
+              "sum": 79,
+              "avg_sum": 81.9,
+              "sum_std": 19.7,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "frequency_heavy": {
+            "mode_name": "出現頻度重視",
+            "numbers": [
+              3,
+              4,
+              17,
+              30,
+              31
+            ],
+            "bonus": 29,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率24.0%で上昇傾向。平均間隔の2.6倍（12回）未出現。",
+            "reasons": {
+              "3": {
+                "score": 0.4103,
+                "top_factor": "freq",
+                "reason_text": "全200回中36回出現（18.0%）と高い出現頻度を記録。他の選出数字との相性も良好。低帯(1-10)。",
+                "details": {
+                  "freq": 0.4839,
+                  "recent": 0.5876,
+                  "drought": 0.1317,
+                  "pull": 0.3506,
+                  "consec": 1.0,
+                  "cycle": 0.0,
+                  "rf": 0.1674,
+                  "lstm": 0.5,
+                  "random": 0.2061,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 19.07
+              },
+              "4": {
+                "score": 0.4722,
+                "top_factor": "freq",
+                "reason_text": "全200回中40回出現（20.0%）と高い出現頻度を記録。平均間隔の2.1倍となる10回未出現。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6129,
+                  "recent": 0.4433,
+                  "drought": 0.777,
+                  "pull": 0.0,
+                  "consec": 0.5385,
+                  "cycle": 0.3333,
+                  "rf": 0.3608,
+                  "lstm": 0.4536,
+                  "random": 0.5624,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 23.69
+              },
+              "17": {
+                "score": 0.3677,
+                "top_factor": "freq",
+                "reason_text": "全200回中31回出現（15.5%）と高い出現頻度を記録。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.3226,
+                  "recent": 0.3196,
+                  "drought": 0.1862,
+                  "pull": 0.2597,
+                  "consec": 0.2308,
+                  "cycle": 1.0,
+                  "rf": 0.1987,
+                  "lstm": 0.328,
+                  "random": 0.4375,
+                  "pair": 0.4545
+                },
+                "monte_carlo_pct": 16.34
+              },
+              "30": {
+                "score": 0.3934,
+                "top_factor": "freq",
+                "reason_text": "全200回中34回出現（17.0%）と高い出現頻度を記録。約1回周期のタイミング。高帯(22-31)。",
+                "details": {
+                  "freq": 0.4194,
+                  "recent": 0.3814,
+                  "drought": 0.2574,
+                  "pull": 0.1039,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 0.3194,
+                  "lstm": 0.3988,
+                  "random": 0.1358,
+                  "pair": 0.6842
+                },
+                "monte_carlo_pct": 20.6
+              },
+              "31": {
+                "score": 0.7266,
+                "top_factor": "freq",
+                "reason_text": "全200回中52回出現（26.0%）と高い出現頻度を記録。直近100回の出現率31.0%で上昇傾向。高帯(22-31)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 1.0,
+                  "drought": 0.0,
+                  "pull": 1.0,
+                  "consec": 0.4615,
+                  "cycle": 0.0,
+                  "rf": 0.4621,
+                  "lstm": 1.0,
+                  "random": 0.5713,
+                  "pair": 0.8889
+                },
+                "monte_carlo_pct": 33.93
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-1-2",
+              "sum": 85,
+              "avg_sum": 81.9,
+              "sum_std": 19.7,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "pull_heavy": {
+            "mode_name": "引っ張り重視",
+            "numbers": [
+              1,
+              10,
+              16,
+              27,
+              29
+            ],
+            "bonus": 31,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率31.0%で上昇傾向。前回も出現。",
+            "reasons": {
+              "1": {
+                "score": 0.3528,
+                "top_factor": "drought",
+                "reason_text": "平均5回間隔に対し12回未出現（2.5倍の遅延）で出現期待が高い。他の選出数字との相性も良好。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6129,
+                  "recent": 0.4433,
+                  "drought": 0.9285,
+                  "pull": 0.0,
+                  "consec": 0.0769,
+                  "cycle": 1.0,
+                  "rf": 0.1442,
+                  "lstm": 0.3771,
+                  "random": 0.2569,
+                  "pair": 0.7143
+                },
+                "monte_carlo_pct": 18.15
+              },
+              "10": {
+                "score": 0.353,
+                "top_factor": "pull",
+                "reason_text": "直近5回中1回出現しており、連続出現の勢いあり。RF予測でも高評価。低帯(1-10)。",
+                "details": {
+                  "freq": 0.2581,
+                  "recent": 0.268,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 0.3077,
+                  "cycle": 0.0,
+                  "rf": 0.6076,
+                  "lstm": 0.2016,
+                  "random": 0.3823,
+                  "pair": 0.375
+                },
+                "monte_carlo_pct": 18.61
+              },
+              "16": {
+                "score": 0.3633,
+                "top_factor": "drought",
+                "reason_text": "平均6回間隔に対し16回未出現（2.7倍の遅延）で出現期待が高い。RF予測でも高評価。中帯(11-21)。",
+                "details": {
+                  "freq": 0.2258,
+                  "recent": 0.2577,
+                  "drought": 1.0,
+                  "pull": 0.0,
+                  "consec": 0.1538,
+                  "cycle": 1.0,
+                  "rf": 0.9047,
+                  "lstm": 0.2697,
+                  "random": 0.4824,
+                  "pair": 0.2
+                },
+                "monte_carlo_pct": 19.65
+              },
+              "27": {
+                "score": 0.4807,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.4516,
+                  "recent": 0.4845,
+                  "drought": 0.0685,
+                  "pull": 0.3247,
+                  "consec": 0.6154,
+                  "cycle": 0.0556,
+                  "rf": 0.2167,
+                  "lstm": 0.3422,
+                  "random": 0.8636,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 16.95
+              },
+              "29": {
+                "score": 0.4202,
+                "top_factor": "drought",
+                "reason_text": "平均5回間隔に対し12回未出現（2.6倍の遅延）で出現期待が高い。RF予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6129,
+                  "recent": 0.6598,
+                  "drought": 0.9483,
+                  "pull": 0.0,
+                  "consec": 0.6154,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.6713,
+                  "random": 0.3945,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 26.39
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-1-2",
+              "sum": 83,
+              "avg_sum": 81.9,
+              "sum_std": 19.7,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "zone_balanced": {
+            "mode_name": "数字帯バランス重視",
+            "numbers": [
+              4,
+              10,
+              11,
+              21,
+              29
+            ],
+            "bonus": 20,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率22.0%で上昇傾向。平均間隔の2.3倍（12回）未出現。",
+            "reasons": {
+              "4": {
+                "score": 0.591,
+                "top_factor": "drought",
+                "reason_text": "平均5回間隔に対し10回未出現（2.1倍の遅延）で出現期待が高い。他の選出数字との相性も良好。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6129,
+                  "recent": 0.4433,
+                  "drought": 0.777,
+                  "pull": 0.0,
+                  "consec": 0.5385,
+                  "cycle": 0.3333,
+                  "rf": 0.3608,
+                  "lstm": 0.4536,
+                  "random": 0.8841,
+                  "pair": 0.56
+                },
+                "monte_carlo_pct": 23.11
+              },
+              "10": {
+                "score": 0.4185,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。11と連番。低帯(1-10)。",
+                "details": {
+                  "freq": 0.2581,
+                  "recent": 0.268,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 1.0,
+                  "cycle": 0.0,
+                  "rf": 0.6076,
+                  "lstm": 0.2016,
+                  "random": 0.6638,
+                  "pair": 0.5
+                },
+                "monte_carlo_pct": 12.09
+              },
+              "11": {
+                "score": 0.487,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。全期間出現率21.0%と安定して高い。中帯(11-21)。",
+                "details": {
+                  "freq": 0.6774,
+                  "recent": 0.4639,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 0.3077,
+                  "cycle": 0.0,
+                  "rf": 0.49,
+                  "lstm": 0.5124,
+                  "random": 0.6747,
+                  "pair": 0.875
+                },
+                "monte_carlo_pct": 17.4
+              },
+              "21": {
+                "score": 0.3718,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。他の選出数字との相性も良好。中帯(11-21)。",
+                "details": {
+                  "freq": 0.6129,
+                  "recent": 0.4124,
+                  "drought": 0.3805,
+                  "pull": 0.0,
+                  "consec": 0.3846,
+                  "cycle": 1.0,
+                  "rf": 0.2237,
+                  "lstm": 0.4873,
+                  "random": 0.0554,
+                  "pair": 0.7143
+                },
+                "monte_carlo_pct": 21.77
+              },
+              "29": {
+                "score": 0.7251,
+                "top_factor": "drought",
+                "reason_text": "平均5回間隔に対し12回未出現（2.6倍の遅延）で出現期待が高い。約1回周期のタイミング。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6129,
+                  "recent": 0.6598,
+                  "drought": 0.9483,
+                  "pull": 0.0,
+                  "consec": 0.6154,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.6713,
+                  "random": 0.9923,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 33.36
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-2-1",
+              "sum": 75,
+              "avg_sum": 81.9,
+              "sum_std": 19.7,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "pair_heavy": {
+            "mode_name": "ペア重視",
+            "numbers": [
+              1,
+              5,
+              12,
+              28,
+              31
+            ],
+            "bonus": 20,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率22.0%で上昇傾向。平均間隔の2.3倍（12回）未出現。",
+            "reasons": {
+              "1": {
+                "score": 0.299,
+                "top_factor": "drought",
+                "reason_text": "平均5回間隔に対し12回未出現（2.5倍の遅延）で出現期待が高い。約1回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6129,
+                  "recent": 0.4433,
+                  "drought": 0.9285,
+                  "pull": 0.0,
+                  "consec": 0.0769,
+                  "cycle": 1.0,
+                  "rf": 0.1442,
+                  "lstm": 0.3771,
+                  "random": 0.2168,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 22.24
+              },
+              "5": {
+                "score": 0.4835,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約3回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.3226,
+                  "recent": 0.3196,
+                  "drought": 0.1703,
+                  "pull": 0.1558,
+                  "consec": 0.3077,
+                  "cycle": 0.5,
+                  "rf": 0.1777,
+                  "lstm": 0.1718,
+                  "random": 0.9747,
+                  "pair": 0.5
+                },
+                "monte_carlo_pct": 13.19
+              },
+              "12": {
+                "score": 0.6416,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.4839,
+                  "recent": 0.4021,
+                  "drought": 0.1324,
+                  "pull": 0.3506,
+                  "consec": 0.5385,
+                  "cycle": 1.0,
+                  "rf": 0.2139,
+                  "lstm": 0.4203,
+                  "random": 0.8591,
+                  "pair": 0.9375
+                },
+                "monte_carlo_pct": 21.05
+              },
+              "28": {
+                "score": 0.5582,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。全期間出現率18.5%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.5161,
+                  "recent": 0.567,
+                  "drought": 0.0678,
+                  "pull": 0.4286,
+                  "consec": 0.5385,
+                  "cycle": 0.5,
+                  "rf": 0.3198,
+                  "lstm": 0.5131,
+                  "random": 0.7764,
+                  "pair": 0.6667
+                },
+                "monte_carlo_pct": 20.7
+              },
+              "31": {
+                "score": 0.5885,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。全期間出現率26.0%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 1.0,
+                  "drought": 0.0,
+                  "pull": 1.0,
+                  "consec": 0.4615,
+                  "cycle": 0.0,
+                  "rf": 0.4621,
+                  "lstm": 1.0,
+                  "random": 0.1579,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 29.83
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-1-2",
+              "sum": 77,
+              "avg_sum": 81.9,
+              "sum_std": 19.7,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "ml_heavy": {
+            "mode_name": "AI(RF+LSTM)重視",
+            "numbers": [
+              10,
+              11,
+              12,
+              21,
+              31
+            ],
+            "bonus": 29,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率24.0%で上昇傾向。平均間隔の2.6倍（12回）未出現。",
+            "reasons": {
+              "10": {
+                "score": 0.4776,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率38.4%と高く予測。LSTM予測でも高評価。低帯(1-10)。",
+                "details": {
+                  "freq": 0.2581,
+                  "recent": 0.268,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 1.0,
+                  "cycle": 0.0,
+                  "rf": 0.6076,
+                  "lstm": 0.2016,
+                  "random": 0.8349,
+                  "pair": 0.6538
+                },
+                "monte_carlo_pct": 17.24
+              },
+              "11": {
+                "score": 0.5188,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率31.3%と高く予測。LSTM予測でも高評価。中帯(11-21)。",
+                "details": {
+                  "freq": 0.6774,
+                  "recent": 0.4639,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 1.0,
+                  "cycle": 0.0,
+                  "rf": 0.49,
+                  "lstm": 0.5124,
+                  "random": 0.8162,
+                  "pair": 0.3333
+                },
+                "monte_carlo_pct": 21.51
+              },
+              "12": {
+                "score": 0.413,
+                "top_factor": "lstm",
+                "reason_text": "LSTMが時系列パターンから出現確率17.7%と予測。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.4839,
+                  "recent": 0.4021,
+                  "drought": 0.1324,
+                  "pull": 0.3506,
+                  "consec": 0.5385,
+                  "cycle": 1.0,
+                  "rf": 0.2139,
+                  "lstm": 0.4203,
+                  "random": 0.576,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 20.6
+              },
+              "21": {
+                "score": 0.4088,
+                "top_factor": "lstm",
+                "reason_text": "LSTMが時系列パターンから出現確率19.0%と予測。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.6129,
+                  "recent": 0.4124,
+                  "drought": 0.3805,
+                  "pull": 0.0,
+                  "consec": 0.3846,
+                  "cycle": 1.0,
+                  "rf": 0.2237,
+                  "lstm": 0.4873,
+                  "random": 0.3915,
+                  "pair": 0.4286
+                },
+                "monte_carlo_pct": 21.27
+              },
+              "31": {
+                "score": 0.5868,
+                "top_factor": "lstm",
+                "reason_text": "LSTMが時系列パターンから出現確率29.0%と予測。RF予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 1.0,
+                  "drought": 0.0,
+                  "pull": 1.0,
+                  "consec": 0.4615,
+                  "cycle": 0.0,
+                  "rf": 0.4621,
+                  "lstm": 1.0,
+                  "random": 0.3503,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 30.29
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-3-1",
+              "sum": 85,
+              "avg_sum": 81.9,
+              "sum_std": 19.7,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          }
+        }
+      },
+      "300": {
+        "label": "直近300回",
+        "range": "第1115回〜第1414回",
+        "draws": 300,
+        "modes": {
+          "balanced": {
+            "mode_name": "総合予想",
+            "numbers": [
+              1,
+              13,
+              14,
+              25,
+              28
+            ],
+            "bonus": 29,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率24.0%で上昇傾向。平均間隔の2.5倍（12回）未出現。",
+            "reasons": {
+              "1": {
+                "score": 0.5138,
+                "top_factor": "drought",
+                "reason_text": "平均5回間隔に対し12回未出現（2.5倍の遅延）で出現期待が高い。約1回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.5882,
+                  "recent": 0.4166,
+                  "drought": 0.9128,
+                  "pull": 0.0,
+                  "consec": 0.0,
+                  "cycle": 1.0,
+                  "rf": 0.1568,
+                  "lstm": 0.7214,
+                  "random": 0.5567,
+                  "pair": 0.3846
+                },
+                "monte_carlo_pct": 22.66
+              },
+              "13": {
+                "score": 0.4652,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。全期間出現率16.33%と安定して高い。中帯(11-21)。",
+                "details": {
+                  "freq": 0.4412,
+                  "recent": 0.1741,
+                  "drought": 0.4223,
+                  "pull": 0.0,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 0.3202,
+                  "lstm": 0.3903,
+                  "random": 0.7215,
+                  "pair": 0.2571
+                },
+                "monte_carlo_pct": 17.76
+              },
+              "14": {
+                "score": 0.4621,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。全期間出現率17.33%と安定して高い。中帯(11-21)。",
+                "details": {
+                  "freq": 0.5294,
+                  "recent": 0.1968,
+                  "drought": 0.3236,
+                  "pull": 0.0,
+                  "consec": 0.1905,
+                  "cycle": 1.0,
+                  "rf": 0.1976,
+                  "lstm": 0.5033,
+                  "random": 0.6711,
+                  "pair": 0.6875
+                },
+                "monte_carlo_pct": 17.38
+              },
+              "25": {
+                "score": 0.3784,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。全期間出現率15.67%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.3824,
+                  "recent": 0.3977,
+                  "drought": 0.1133,
+                  "pull": 0.1948,
+                  "consec": 0.5238,
+                  "cycle": 1.0,
+                  "rf": 0.1286,
+                  "lstm": 0.3713,
+                  "random": 0.4888,
+                  "pair": 0.2963
+                },
+                "monte_carlo_pct": 16.21
+              },
+              "28": {
+                "score": 0.4443,
+                "top_factor": "freq",
+                "reason_text": "全300回中55回出現（18.33%）と高い出現頻度を記録。LSTM予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6176,
+                  "recent": 0.5945,
+                  "drought": 0.0676,
+                  "pull": 0.4286,
+                  "consec": 0.4762,
+                  "cycle": 0.5,
+                  "rf": 0.3456,
+                  "lstm": 0.5137,
+                  "random": 0.7927,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 19.64
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 81,
+              "avg_sum": 82.1,
+              "sum_std": 19.8,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "frequency_heavy": {
+            "mode_name": "出現頻度重視",
+            "numbers": [
+              1,
+              14,
+              21,
+              28,
+              31
+            ],
+            "bonus": 29,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率24.0%で上昇傾向。平均間隔の2.5倍（12回）未出現。",
+            "reasons": {
+              "1": {
+                "score": 0.5834,
+                "top_factor": "freq",
+                "reason_text": "全300回中54回出現（18.0%）と高い出現頻度を記録。平均間隔の2.5倍となる12回未出現。低帯(1-10)。",
+                "details": {
+                  "freq": 0.5882,
+                  "recent": 0.4166,
+                  "drought": 0.9128,
+                  "pull": 0.0,
+                  "consec": 0.0,
+                  "cycle": 1.0,
+                  "rf": 0.1568,
+                  "lstm": 0.7214,
+                  "random": 0.7266,
+                  "pair": 0.7568
+                },
+                "monte_carlo_pct": 22.44
+              },
+              "14": {
+                "score": 0.4228,
+                "top_factor": "freq",
+                "reason_text": "全300回中52回出現（17.33%）と高い出現頻度を記録。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.5294,
+                  "recent": 0.1968,
+                  "drought": 0.3236,
+                  "pull": 0.0,
+                  "consec": 0.1905,
+                  "cycle": 1.0,
+                  "rf": 0.1976,
+                  "lstm": 0.5033,
+                  "random": 0.358,
+                  "pair": 0.6875
+                },
+                "monte_carlo_pct": 18.77
+              },
+              "21": {
+                "score": 0.4933,
+                "top_factor": "freq",
+                "reason_text": "全300回中53回出現（17.67%）と高い出現頻度を記録。他の選出数字との相性も良好。中帯(11-21)。",
+                "details": {
+                  "freq": 0.5588,
+                  "recent": 0.375,
+                  "drought": 0.3289,
+                  "pull": 0.0,
+                  "consec": 0.1429,
+                  "cycle": 1.0,
+                  "rf": 0.5119,
+                  "lstm": 0.5152,
+                  "random": 0.3871,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 19.88
+              },
+              "28": {
+                "score": 0.5464,
+                "top_factor": "freq",
+                "reason_text": "全300回中55回出現（18.33%）と高い出現頻度を記録。直近100回の出現率22.0%で上昇傾向。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6176,
+                  "recent": 0.5945,
+                  "drought": 0.0676,
+                  "pull": 0.4286,
+                  "consec": 0.4762,
+                  "cycle": 0.5,
+                  "rf": 0.3456,
+                  "lstm": 0.5137,
+                  "random": 0.9795,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 21.1
+              },
+              "31": {
+                "score": 0.701,
+                "top_factor": "freq",
+                "reason_text": "全300回中68回出現（22.67%）と高い出現頻度を記録。直近100回の出現率31.0%で上昇傾向。高帯(22-31)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 1.0,
+                  "drought": 0.0,
+                  "pull": 1.0,
+                  "consec": 0.4286,
+                  "cycle": 0.0,
+                  "rf": 0.5619,
+                  "lstm": 1.0,
+                  "random": 0.3582,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 30.33
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 95,
+              "avg_sum": 82.1,
+              "sum_std": 19.8,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "pull_heavy": {
+            "mode_name": "引っ張り重視",
+            "numbers": [
+              1,
+              12,
+              14,
+              29,
+              31
+            ],
+            "bonus": 17,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。出現率16.0%と高頻度。",
+            "reasons": {
+              "1": {
+                "score": 0.4352,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。平均間隔の2.5倍となる12回未出現。低帯(1-10)。",
+                "details": {
+                  "freq": 0.5882,
+                  "recent": 0.4166,
+                  "drought": 0.9128,
+                  "pull": 0.0,
+                  "consec": 0.0,
+                  "cycle": 1.0,
+                  "rf": 0.1568,
+                  "lstm": 0.7214,
+                  "random": 0.5635,
+                  "pair": 0.7917
+                },
+                "monte_carlo_pct": 17.98
+              },
+              "12": {
+                "score": 0.4679,
+                "top_factor": "pull",
+                "reason_text": "直近5回中2回出現しており、連続出現の勢いあり。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.4706,
+                  "recent": 0.3864,
+                  "drought": 0.1219,
+                  "pull": 0.3506,
+                  "consec": 0.3333,
+                  "cycle": 1.0,
+                  "rf": 0.1803,
+                  "lstm": 0.4449,
+                  "random": 0.7593,
+                  "pair": 0.5
+                },
+                "monte_carlo_pct": 20.0
+              },
+              "14": {
+                "score": 0.4525,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.5294,
+                  "recent": 0.1968,
+                  "drought": 0.3236,
+                  "pull": 0.0,
+                  "consec": 0.1905,
+                  "cycle": 1.0,
+                  "rf": 0.1976,
+                  "lstm": 0.5033,
+                  "random": 0.9691,
+                  "pair": 0.8
+                },
+                "monte_carlo_pct": 13.95
+              },
+              "29": {
+                "score": 0.4259,
+                "top_factor": "drought",
+                "reason_text": "平均5回間隔に対し12回未出現（2.5倍の遅延）で出現期待が高い。RF予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 0.7647,
+                  "recent": 0.7007,
+                  "drought": 0.8997,
+                  "pull": 0.0,
+                  "consec": 0.6667,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.6595,
+                  "random": 0.2447,
+                  "pair": 0.2368
+                },
+                "monte_carlo_pct": 25.02
+              },
+              "31": {
+                "score": 0.5866,
+                "top_factor": "pull",
+                "reason_text": "直近5回中3回出現しており、連続出現の勢いあり。全期間出現率22.67%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 1.0,
+                  "drought": 0.0,
+                  "pull": 1.0,
+                  "consec": 0.4286,
+                  "cycle": 0.0,
+                  "rf": 0.5619,
+                  "lstm": 1.0,
+                  "random": 0.3932,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 33.42
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 87,
+              "avg_sum": 82.1,
+              "sum_std": 19.8,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "zone_balanced": {
+            "mode_name": "数字帯バランス重視",
+            "numbers": [
+              4,
+              13,
+              16,
+              25,
+              29
+            ],
+            "bonus": 31,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率31.0%で上昇傾向。前回も出現。",
+            "reasons": {
+              "4": {
+                "score": 0.5831,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約1回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6176,
+                  "recent": 0.4241,
+                  "drought": 0.6811,
+                  "pull": 0.0,
+                  "consec": 0.5238,
+                  "cycle": 1.0,
+                  "rf": 0.3841,
+                  "lstm": 0.5023,
+                  "random": 0.5315,
+                  "pair": 0.9333
+                },
+                "monte_carlo_pct": 23.05
+              },
+              "13": {
+                "score": 0.5594,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。中帯(11-21)。",
+                "details": {
+                  "freq": 0.4412,
+                  "recent": 0.1741,
+                  "drought": 0.4223,
+                  "pull": 0.0,
+                  "consec": 0.2857,
+                  "cycle": 1.0,
+                  "rf": 0.3202,
+                  "lstm": 0.3903,
+                  "random": 0.9303,
+                  "pair": 0.4412
+                },
+                "monte_carlo_pct": 18.27
+              },
+              "16": {
+                "score": 0.5612,
+                "top_factor": "drought",
+                "reason_text": "平均6回間隔に対し16回未出現（2.7倍の遅延）で出現期待が高い。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.4412,
+                  "recent": 0.3105,
+                  "drought": 1.0,
+                  "pull": 0.0,
+                  "consec": 0.2857,
+                  "cycle": 1.0,
+                  "rf": 0.4172,
+                  "lstm": 0.3979,
+                  "random": 0.7921,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 24.04
+              },
+              "25": {
+                "score": 0.5252,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。全期間出現率15.67%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.3824,
+                  "recent": 0.3977,
+                  "drought": 0.1133,
+                  "pull": 0.1948,
+                  "consec": 0.5238,
+                  "cycle": 1.0,
+                  "rf": 0.1286,
+                  "lstm": 0.3713,
+                  "random": 0.9791,
+                  "pair": 0.1724
+                },
+                "monte_carlo_pct": 17.13
+              },
+              "29": {
+                "score": 0.733,
+                "top_factor": "drought",
+                "reason_text": "平均5回間隔に対し12回未出現（2.5倍の遅延）で出現期待が高い。他の選出数字との相性も良好。高帯(22-31)。",
+                "details": {
+                  "freq": 0.7647,
+                  "recent": 0.7007,
+                  "drought": 0.8997,
+                  "pull": 0.0,
+                  "consec": 0.6667,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.6595,
+                  "random": 0.6486,
+                  "pair": 0.9167
+                },
+                "monte_carlo_pct": 30.6
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 87,
+              "avg_sum": 82.1,
+              "sum_std": 19.8,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "pair_heavy": {
+            "mode_name": "ペア重視",
+            "numbers": [
+              1,
+              12,
+              14,
+              27,
+              31
+            ],
+            "bonus": 29,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率24.0%で上昇傾向。平均間隔の2.5倍（12回）未出現。",
+            "reasons": {
+              "1": {
+                "score": 0.5521,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。平均間隔の2.5倍となる12回未出現。低帯(1-10)。",
+                "details": {
+                  "freq": 0.5882,
+                  "recent": 0.4166,
+                  "drought": 0.9128,
+                  "pull": 0.0,
+                  "consec": 0.0,
+                  "cycle": 1.0,
+                  "rf": 0.1568,
+                  "lstm": 0.7214,
+                  "random": 0.4386,
+                  "pair": 0.8222
+                },
+                "monte_carlo_pct": 22.1
+              },
+              "12": {
+                "score": 0.4915,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.4706,
+                  "recent": 0.3864,
+                  "drought": 0.1219,
+                  "pull": 0.3506,
+                  "consec": 0.3333,
+                  "cycle": 1.0,
+                  "rf": 0.1803,
+                  "lstm": 0.4449,
+                  "random": 0.5118,
+                  "pair": 0.7
+                },
+                "monte_carlo_pct": 18.32
+              },
+              "14": {
+                "score": 0.5134,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.5294,
+                  "recent": 0.1968,
+                  "drought": 0.3236,
+                  "pull": 0.0,
+                  "consec": 0.1905,
+                  "cycle": 1.0,
+                  "rf": 0.1976,
+                  "lstm": 0.5033,
+                  "random": 0.7401,
+                  "pair": 0.6176
+                },
+                "monte_carlo_pct": 16.06
+              },
+              "27": {
+                "score": 0.6234,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。全期間出現率19.33%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.7059,
+                  "recent": 0.5491,
+                  "drought": 0.0699,
+                  "pull": 0.3247,
+                  "consec": 0.4762,
+                  "cycle": 0.0556,
+                  "rf": 0.4959,
+                  "lstm": 0.5746,
+                  "random": 0.8916,
+                  "pair": 0.8621
+                },
+                "monte_carlo_pct": 18.55
+              },
+              "31": {
+                "score": 0.4277,
+                "top_factor": "freq",
+                "reason_text": "全300回中68回出現（22.67%）と高い出現頻度を記録。LSTM予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 1.0,
+                  "drought": 0.0,
+                  "pull": 1.0,
+                  "consec": 0.4286,
+                  "cycle": 0.0,
+                  "rf": 0.5619,
+                  "lstm": 1.0,
+                  "random": 0.3779,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 27.7
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 85,
+              "avg_sum": 82.1,
+              "sum_std": 19.8,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "ml_heavy": {
+            "mode_name": "AI(RF+LSTM)重視",
+            "numbers": [
+              4,
+              11,
+              13,
+              28,
+              29
+            ],
+            "bonus": 31,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率31.0%で上昇傾向。前回も出現。",
+            "reasons": {
+              "4": {
+                "score": 0.4928,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率23.0%と高く予測。LSTM予測でも高評価。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6176,
+                  "recent": 0.4241,
+                  "drought": 0.6811,
+                  "pull": 0.0,
+                  "consec": 0.5238,
+                  "cycle": 1.0,
+                  "rf": 0.3841,
+                  "lstm": 0.5023,
+                  "random": 0.3707,
+                  "pair": 0.9706
+                },
+                "monte_carlo_pct": 22.03
+              },
+              "11": {
+                "score": 0.4742,
+                "top_factor": "lstm",
+                "reason_text": "LSTMが時系列パターンから出現確率20.3%と予測。RF予測でも高評価。中帯(11-21)。",
+                "details": {
+                  "freq": 0.8235,
+                  "recent": 0.4773,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 0.381,
+                  "cycle": 0.0,
+                  "rf": 0.486,
+                  "lstm": 0.7052,
+                  "random": 0.3161,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 21.1
+              },
+              "13": {
+                "score": 0.513,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率19.6%と高く予測。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.4412,
+                  "recent": 0.1741,
+                  "drought": 0.4223,
+                  "pull": 0.0,
+                  "consec": 0.2857,
+                  "cycle": 1.0,
+                  "rf": 0.3202,
+                  "lstm": 0.3903,
+                  "random": 0.9338,
+                  "pair": 0.3889
+                },
+                "monte_carlo_pct": 17.28
+              },
+              "28": {
+                "score": 0.4637,
+                "top_factor": "lstm",
+                "reason_text": "LSTMが時系列パターンから出現確率17.4%と予測。RF予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6176,
+                  "recent": 0.5945,
+                  "drought": 0.0676,
+                  "pull": 0.4286,
+                  "consec": 1.0,
+                  "cycle": 0.5,
+                  "rf": 0.3456,
+                  "lstm": 0.5137,
+                  "random": 0.4942,
+                  "pair": 0.6129
+                },
+                "monte_carlo_pct": 18.73
+              },
+              "29": {
+                "score": 0.7009,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率55.6%と高く予測。LSTM予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 0.7647,
+                  "recent": 0.7007,
+                  "drought": 0.8997,
+                  "pull": 0.0,
+                  "consec": 0.6667,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.6595,
+                  "random": 0.5534,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 32.88
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 85,
+              "avg_sum": 82.1,
+              "sum_std": 19.8,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          }
+        }
+      },
+      "400": {
+        "label": "直近400回",
+        "range": "第1015回〜第1414回",
+        "draws": 400,
+        "modes": {
+          "balanced": {
+            "mode_name": "総合予想",
+            "numbers": [
+              1,
+              4,
+              16,
+              23,
+              29
+            ],
+            "bonus": 31,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率31.0%で上昇傾向。前回も出現。",
+            "reasons": {
+              "1": {
+                "score": 0.4837,
+                "top_factor": "drought",
+                "reason_text": "平均6回間隔に対し12回未出現（2.1倍の遅延）で出現期待が高い。全期間出現率16.75%と安定して高い。低帯(1-10)。",
+                "details": {
+                  "freq": 0.5814,
+                  "recent": 0.4166,
+                  "drought": 0.738,
+                  "pull": 0.0,
+                  "consec": 0.0,
+                  "cycle": 0.2,
+                  "rf": 0.232,
+                  "lstm": 0.6234,
+                  "random": 0.8152,
+                  "pair": 0.6565
+                },
+                "monte_carlo_pct": 17.21
+              },
+              "4": {
+                "score": 0.5758,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。全期間出現率17.5%と安定して高い。低帯(1-10)。",
+                "details": {
+                  "freq": 0.6512,
+                  "recent": 0.4241,
+                  "drought": 0.6261,
+                  "pull": 0.0,
+                  "consec": 0.68,
+                  "cycle": 1.0,
+                  "rf": 0.8807,
+                  "lstm": 0.5884,
+                  "random": 0.1419,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 24.33
+              },
+              "16": {
+                "score": 0.552,
+                "top_factor": "drought",
+                "reason_text": "平均6回間隔に対し16回未出現（2.9倍の遅延）で出現期待が高い。全期間出現率17.5%と安定して高い。中帯(11-21)。",
+                "details": {
+                  "freq": 0.6512,
+                  "recent": 0.3105,
+                  "drought": 1.0,
+                  "pull": 0.0,
+                  "consec": 0.24,
+                  "cycle": 1.0,
+                  "rf": 0.5454,
+                  "lstm": 0.5219,
+                  "random": 0.7841,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 22.61
+              },
+              "23": {
+                "score": 0.4511,
+                "top_factor": "drought",
+                "reason_text": "平均6回間隔に対し13回未出現（2.3倍の遅延）で出現期待が高い。全期間出現率17.25%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6279,
+                  "recent": 0.053,
+                  "drought": 0.7924,
+                  "pull": 0.0,
+                  "consec": 0.4,
+                  "cycle": 1.0,
+                  "rf": 0.4107,
+                  "lstm": 0.3101,
+                  "random": 0.3413,
+                  "pair": 0.3254
+                },
+                "monte_carlo_pct": 19.39
+              },
+              "29": {
+                "score": 0.7044,
+                "top_factor": "freq",
+                "reason_text": "全400回中75回出現（18.75%）と高い出現頻度を記録。平均間隔の2.3倍となる12回未出現。高帯(22-31)。",
+                "details": {
+                  "freq": 0.7674,
+                  "recent": 0.7007,
+                  "drought": 0.7977,
+                  "pull": 0.0,
+                  "consec": 0.64,
+                  "cycle": 1.0,
+                  "rf": 1.0,
+                  "lstm": 0.7539,
+                  "random": 0.7521,
+                  "pair": 0.5882
+                },
+                "monte_carlo_pct": 27.16
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-1-2",
+              "sum": 73,
+              "avg_sum": 81.8,
+              "sum_std": 19.8,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "frequency_heavy": {
+            "mode_name": "出現頻度重視",
+            "numbers": [
+              1,
+              11,
+              12,
+              30,
+              31
+            ],
+            "bonus": 16,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。出現率17.5%と高頻度。平均間隔の2.9倍（16回）未出現。",
+            "reasons": {
+              "1": {
+                "score": 0.544,
+                "top_factor": "freq",
+                "reason_text": "全400回中67回出現（16.75%）と高い出現頻度を記録。平均間隔の2.1倍となる12回未出現。低帯(1-10)。",
+                "details": {
+                  "freq": 0.5814,
+                  "recent": 0.4166,
+                  "drought": 0.738,
+                  "pull": 0.0,
+                  "consec": 0.0,
+                  "cycle": 0.2,
+                  "rf": 0.232,
+                  "lstm": 0.6234,
+                  "random": 0.9451,
+                  "pair": 0.5652
+                },
+                "monte_carlo_pct": 17.23
+              },
+              "11": {
+                "score": 0.4798,
+                "top_factor": "freq",
+                "reason_text": "全400回中75回出現（18.75%）と高い出現頻度を記録。他の選出数字との相性も良好。中帯(11-21)。",
+                "details": {
+                  "freq": 0.7674,
+                  "recent": 0.4773,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 1.0,
+                  "cycle": 0.0,
+                  "rf": 0.2929,
+                  "lstm": 0.6937,
+                  "random": 0.0616,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 20.04
+              },
+              "12": {
+                "score": 0.403,
+                "top_factor": "freq",
+                "reason_text": "全400回中66回出現（16.5%）と高い出現頻度を記録。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.5581,
+                  "recent": 0.3864,
+                  "drought": 0.1144,
+                  "pull": 0.3506,
+                  "consec": 0.36,
+                  "cycle": 1.0,
+                  "rf": 0.308,
+                  "lstm": 0.4023,
+                  "random": 0.298,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 18.08
+              },
+              "30": {
+                "score": 0.5559,
+                "top_factor": "freq",
+                "reason_text": "全400回中64回出現（16.0%）と高い出現頻度を記録。約1回周期のタイミング。高帯(22-31)。",
+                "details": {
+                  "freq": 0.5116,
+                  "recent": 0.4318,
+                  "drought": 0.2229,
+                  "pull": 0.1039,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 0.3009,
+                  "lstm": 0.4455,
+                  "random": 0.8941,
+                  "pair": 0.6098
+                },
+                "monte_carlo_pct": 16.94
+              },
+              "31": {
+                "score": 0.7059,
+                "top_factor": "freq",
+                "reason_text": "全400回中85回出現（21.25%）と高い出現頻度を記録。直近100回の出現率31.0%で上昇傾向。高帯(22-31)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 1.0,
+                  "drought": 0.0,
+                  "pull": 1.0,
+                  "consec": 0.28,
+                  "cycle": 0.0,
+                  "rf": 0.6817,
+                  "lstm": 1.0,
+                  "random": 0.3702,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 27.46
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 85,
+              "avg_sum": 81.8,
+              "sum_std": 19.8,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "pull_heavy": {
+            "mode_name": "引っ張り重視",
+            "numbers": [
+              2,
+              11,
+              14,
+              23,
+              31
+            ],
+            "bonus": 29,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率24.0%で上昇傾向。平均間隔の2.3倍（12回）未出現。",
+            "reasons": {
+              "2": {
+                "score": 0.4386,
+                "top_factor": "pull",
+                "reason_text": "直近5回中1回出現しており、連続出現の勢いあり。全期間出現率16.75%と安定して高い。低帯(1-10)。",
+                "details": {
+                  "freq": 0.5814,
+                  "recent": 0.0945,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 0.6,
+                  "cycle": 0.0,
+                  "rf": 0.323,
+                  "lstm": 0.466,
+                  "random": 0.711,
+                  "pair": 0.2836
+                },
+                "monte_carlo_pct": 19.35
+              },
+              "11": {
+                "score": 0.5048,
+                "top_factor": "pull",
+                "reason_text": "直近5回中1回出現しており、連続出現の勢いあり。他の選出数字との相性も良好。中帯(11-21)。",
+                "details": {
+                  "freq": 0.7674,
+                  "recent": 0.4773,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 0.36,
+                  "cycle": 0.0,
+                  "rf": 0.2929,
+                  "lstm": 0.6937,
+                  "random": 0.6253,
+                  "pair": 0.8402
+                },
+                "monte_carlo_pct": 21.13
+              },
+              "14": {
+                "score": 0.3923,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。全期間出現率17.5%と安定して高い。中帯(11-21)。",
+                "details": {
+                  "freq": 0.6512,
+                  "recent": 0.1968,
+                  "drought": 0.3108,
+                  "pull": 0.0,
+                  "consec": 0.2,
+                  "cycle": 1.0,
+                  "rf": 0.2395,
+                  "lstm": 0.6452,
+                  "random": 0.9633,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 15.39
+              },
+              "23": {
+                "score": 0.4089,
+                "top_factor": "drought",
+                "reason_text": "平均6回間隔に対し13回未出現（2.3倍の遅延）で出現期待が高い。約1回周期のタイミング。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6279,
+                  "recent": 0.053,
+                  "drought": 0.7924,
+                  "pull": 0.0,
+                  "consec": 0.4,
+                  "cycle": 1.0,
+                  "rf": 0.4107,
+                  "lstm": 0.3101,
+                  "random": 0.7212,
+                  "pair": 0.3113
+                },
+                "monte_carlo_pct": 16.25
+              },
+              "31": {
+                "score": 0.7555,
+                "top_factor": "pull",
+                "reason_text": "直近5回中3回出現しており、連続出現の勢いあり。他の選出数字との相性も良好。高帯(22-31)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 1.0,
+                  "drought": 0.0,
+                  "pull": 1.0,
+                  "consec": 0.28,
+                  "cycle": 0.0,
+                  "rf": 0.6817,
+                  "lstm": 1.0,
+                  "random": 0.7527,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 32.48
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 81,
+              "avg_sum": 81.8,
+              "sum_std": 19.8,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "zone_balanced": {
+            "mode_name": "数字帯バランス重視",
+            "numbers": [
+              3,
+              12,
+              16,
+              25,
+              31
+            ],
+            "bonus": 29,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率24.0%で上昇傾向。平均間隔の2.3倍（12回）未出現。",
+            "reasons": {
+              "3": {
+                "score": 0.5791,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。全期間出現率18.75%と安定して高い。低帯(1-10)。",
+                "details": {
+                  "freq": 0.7674,
+                  "recent": 0.5909,
+                  "drought": 0.1287,
+                  "pull": 0.3506,
+                  "consec": 1.0,
+                  "cycle": 0.0,
+                  "rf": 0.3115,
+                  "lstm": 0.6811,
+                  "random": 0.8358,
+                  "pair": 0.8267
+                },
+                "monte_carlo_pct": 17.72
+              },
+              "12": {
+                "score": 0.5124,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。他の選出数字との相性も良好。中帯(11-21)。",
+                "details": {
+                  "freq": 0.5581,
+                  "recent": 0.3864,
+                  "drought": 0.1144,
+                  "pull": 0.3506,
+                  "consec": 0.36,
+                  "cycle": 1.0,
+                  "rf": 0.308,
+                  "lstm": 0.4023,
+                  "random": 0.6453,
+                  "pair": 0.6327
+                },
+                "monte_carlo_pct": 17.89
+              },
+              "16": {
+                "score": 0.6049,
+                "top_factor": "drought",
+                "reason_text": "平均6回間隔に対し16回未出現（2.9倍の遅延）で出現期待が高い。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.6512,
+                  "recent": 0.3105,
+                  "drought": 1.0,
+                  "pull": 0.0,
+                  "consec": 0.24,
+                  "cycle": 1.0,
+                  "rf": 0.5454,
+                  "lstm": 0.5219,
+                  "random": 0.6958,
+                  "pair": 0.3492
+                },
+                "monte_carlo_pct": 25.13
+              },
+              "25": {
+                "score": 0.497,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。全期間出現率16.25%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.5349,
+                  "recent": 0.3977,
+                  "drought": 0.1113,
+                  "pull": 0.1948,
+                  "consec": 0.56,
+                  "cycle": 1.0,
+                  "rf": 0.2293,
+                  "lstm": 0.5239,
+                  "random": 0.8162,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 18.3
+              },
+              "31": {
+                "score": 0.6321,
+                "top_factor": "freq",
+                "reason_text": "全400回中85回出現（21.25%）と高い出現頻度を記録。他の選出数字との相性も良好。高帯(22-31)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 1.0,
+                  "drought": 0.0,
+                  "pull": 1.0,
+                  "consec": 0.28,
+                  "cycle": 0.0,
+                  "rf": 0.6817,
+                  "lstm": 1.0,
+                  "random": 0.6993,
+                  "pair": 0.8545
+                },
+                "monte_carlo_pct": 22.97
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 87,
+              "avg_sum": 81.8,
+              "sum_std": 19.8,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "pair_heavy": {
+            "mode_name": "ペア重視",
+            "numbers": [
+              6,
+              7,
+              17,
+              26,
+              27
+            ],
+            "bonus": 29,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率24.0%で上昇傾向。平均間隔の2.3倍（12回）未出現。",
+            "reasons": {
+              "6": {
+                "score": 0.4174,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。7と連番。低帯(1-10)。",
+                "details": {
+                  "freq": 0.1163,
+                  "recent": 0.2764,
+                  "drought": 0.08,
+                  "pull": 0.1948,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 0.5404,
+                  "lstm": 0.0634,
+                  "random": 0.8066,
+                  "pair": 0.1057
+                },
+                "monte_carlo_pct": 13.17
+              },
+              "7": {
+                "score": 0.4366,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約1回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.3953,
+                  "recent": 0.1439,
+                  "drought": 0.3773,
+                  "pull": 0.0,
+                  "consec": 0.08,
+                  "cycle": 1.0,
+                  "rf": 0.2682,
+                  "lstm": 0.3101,
+                  "random": 0.5087,
+                  "pair": 0.6296
+                },
+                "monte_carlo_pct": 13.59
+              },
+              "17": {
+                "score": 0.5372,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.4186,
+                  "recent": 0.337,
+                  "drought": 0.1561,
+                  "pull": 0.2597,
+                  "consec": 0.24,
+                  "cycle": 1.0,
+                  "rf": 0.6329,
+                  "lstm": 0.3713,
+                  "random": 0.9272,
+                  "pair": 0.3876
+                },
+                "monte_carlo_pct": 17.78
+              },
+              "26": {
+                "score": 0.5101,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。27と連番。高帯(22-31)。",
+                "details": {
+                  "freq": 0.3953,
+                  "recent": 0.2764,
+                  "drought": 0.2069,
+                  "pull": 0.1039,
+                  "consec": 1.0,
+                  "cycle": 0.2222,
+                  "rf": 0.4961,
+                  "lstm": 0.3219,
+                  "random": 0.8142,
+                  "pair": 0.5455
+                },
+                "monte_carlo_pct": 13.49
+              },
+              "27": {
+                "score": 0.4514,
+                "top_factor": "freq",
+                "reason_text": "全400回中77回出現（19.25%）と高い出現頻度を記録。LSTM予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 0.814,
+                  "recent": 0.5491,
+                  "drought": 0.0661,
+                  "pull": 0.3247,
+                  "consec": 0.6,
+                  "cycle": 0.0556,
+                  "rf": 0.3335,
+                  "lstm": 0.5713,
+                  "random": 0.9582,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 17.14
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-1-2",
+              "sum": 83,
+              "avg_sum": 81.8,
+              "sum_std": 19.8,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "ml_heavy": {
+            "mode_name": "AI(RF+LSTM)重視",
+            "numbers": [
+              3,
+              5,
+              19,
+              20,
+              28
+            ],
+            "bonus": 29,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率24.0%で上昇傾向。平均間隔の2.3倍（12回）未出現。",
+            "reasons": {
+              "3": {
+                "score": 0.4417,
+                "top_factor": "lstm",
+                "reason_text": "LSTMが時系列パターンから出現確率18.4%と予測。RF予測でも高評価。低帯(1-10)。",
+                "details": {
+                  "freq": 0.7674,
+                  "recent": 0.5909,
+                  "drought": 0.1287,
+                  "pull": 0.3506,
+                  "consec": 1.0,
+                  "cycle": 0.0,
+                  "rf": 0.3115,
+                  "lstm": 0.6811,
+                  "random": 0.3797,
+                  "pair": 0.8073
+                },
+                "monte_carlo_pct": 16.79
+              },
+              "5": {
+                "score": 0.4884,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率17.9%と高く予測。LSTM予測でも高評価。低帯(1-10)。",
+                "details": {
+                  "freq": 0.5116,
+                  "recent": 0.3295,
+                  "drought": 0.1645,
+                  "pull": 0.1558,
+                  "consec": 0.4,
+                  "cycle": 0.5,
+                  "rf": 0.4027,
+                  "lstm": 0.4112,
+                  "random": 0.9368,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 15.58
+              },
+              "19": {
+                "score": 0.4627,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率18.8%と高く予測。LSTM予測でも高評価。中帯(11-21)。",
+                "details": {
+                  "freq": 0.6744,
+                  "recent": 0.1364,
+                  "drought": 0.1234,
+                  "pull": 0.1948,
+                  "consec": 0.28,
+                  "cycle": 0.1111,
+                  "rf": 0.4248,
+                  "lstm": 0.5311,
+                  "random": 0.7754,
+                  "pair": 0.2182
+                },
+                "monte_carlo_pct": 15.59
+              },
+              "20": {
+                "score": 0.3949,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率16.7%と高く予測。LSTM予測でも高評価。中帯(11-21)。",
+                "details": {
+                  "freq": 0.4419,
+                  "recent": 0.5718,
+                  "drought": 0.6419,
+                  "pull": 0.0,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 0.3745,
+                  "lstm": 0.4908,
+                  "random": 0.0004,
+                  "pair": 0.6821
+                },
+                "monte_carlo_pct": 19.44
+              },
+              "28": {
+                "score": 0.5212,
+                "top_factor": "lstm",
+                "reason_text": "LSTMが時系列パターンから出現確率18.3%と予測。RF予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 0.7209,
+                  "recent": 0.5945,
+                  "drought": 0.0639,
+                  "pull": 0.4286,
+                  "consec": 0.6,
+                  "cycle": 0.0,
+                  "rf": 0.3391,
+                  "lstm": 0.6673,
+                  "random": 0.7974,
+                  "pair": 0.6735
+                },
+                "monte_carlo_pct": 17.57
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-2-1",
+              "sum": 75,
+              "avg_sum": 81.8,
+              "sum_std": 19.8,
+              "sum_range": "62〜102"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          }
+        }
+      },
+      "all": {
+        "label": "全期間",
+        "range": "第1回〜第1414回",
+        "draws": 1414,
+        "modes": {
+          "balanced": {
+            "mode_name": "総合予想",
+            "numbers": [
+              3,
+              14,
+              20,
+              23,
+              27
+            ],
+            "bonus": 11,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。出現率18.95%と高頻度。前回も出現。",
+            "reasons": {
+              "3": {
+                "score": 0.546,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。全期間出現率16.9%と安定して高い。低帯(1-10)。",
+                "details": {
+                  "freq": 0.5857,
+                  "recent": 0.5909,
+                  "drought": 0.1265,
+                  "pull": 0.3506,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 0.1266,
+                  "lstm": 0.7447,
+                  "random": 0.5052,
+                  "pair": 0.7829
+                },
+                "monte_carlo_pct": 21.16
+              },
+              "14": {
+                "score": 0.4118,
+                "top_factor": "freq",
+                "reason_text": "全1414回中249回出現（17.61%）と高い出現頻度を記録。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.7286,
+                  "recent": 0.1968,
+                  "drought": 0.3307,
+                  "pull": 0.0,
+                  "consec": 0.4043,
+                  "cycle": 1.0,
+                  "rf": 0.1721,
+                  "lstm": 0.9306,
+                  "random": 0.2033,
+                  "pair": 0.1109
+                },
+                "monte_carlo_pct": 20.44
+              },
+              "20": {
+                "score": 0.551,
+                "top_factor": "drought",
+                "reason_text": "平均6回間隔に対し12回未出現（2.0倍の遅延）で出現期待が高い。約2回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.5286,
+                  "recent": 0.5718,
+                  "drought": 0.7513,
+                  "pull": 0.0,
+                  "consec": 0.6383,
+                  "cycle": 1.0,
+                  "rf": 0.6581,
+                  "lstm": 0.6317,
+                  "random": 0.348,
+                  "pair": 0.5705
+                },
+                "monte_carlo_pct": 23.85
+              },
+              "23": {
+                "score": 0.4796,
+                "top_factor": "drought",
+                "reason_text": "平均6回間隔に対し13回未出現（2.2倍の遅延）で出現期待が高い。約1回周期のタイミング。高帯(22-31)。",
+                "details": {
+                  "freq": 0.5286,
+                  "recent": 0.053,
+                  "drought": 0.8207,
+                  "pull": 0.0,
+                  "consec": 0.5745,
+                  "cycle": 1.0,
+                  "rf": 0.0205,
+                  "lstm": 0.5211,
+                  "random": 0.8743,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 19.37
+              },
+              "27": {
+                "score": 0.4346,
+                "top_factor": "freq",
+                "reason_text": "全1414回中244回出現（17.26%）と高い出現頻度を記録。LSTM予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6571,
+                  "recent": 0.5491,
+                  "drought": 0.0652,
+                  "pull": 0.3247,
+                  "consec": 0.7234,
+                  "cycle": 0.5,
+                  "rf": 0.5454,
+                  "lstm": 0.6816,
+                  "random": 0.3146,
+                  "pair": 0.2396
+                },
+                "monte_carlo_pct": 19.89
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 87,
+              "avg_sum": 81.0,
+              "sum_std": 18.8,
+              "sum_range": "62〜100"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "frequency_heavy": {
+            "mode_name": "出現頻度重視",
+            "numbers": [
+              4,
+              11,
+              14,
+              23,
+              27
+            ],
+            "bonus": 31,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率31.0%で上昇傾向。前回も出現。",
+            "reasons": {
+              "4": {
+                "score": 0.5617,
+                "top_factor": "freq",
+                "reason_text": "全1414回中228回出現（16.12%）と高い出現頻度を記録。約1回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.4286,
+                  "recent": 0.4241,
+                  "drought": 0.6158,
+                  "pull": 0.0,
+                  "consec": 0.617,
+                  "cycle": 1.0,
+                  "rf": 0.7816,
+                  "lstm": 0.4878,
+                  "random": 0.8729,
+                  "pair": 0.4844
+                },
+                "monte_carlo_pct": 20.18
+              },
+              "11": {
+                "score": 0.6719,
+                "top_factor": "freq",
+                "reason_text": "全1414回中268回出現（18.95%）と高い出現頻度を記録。LSTM予測でも高評価。中帯(11-21)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 0.4773,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 0.8085,
+                  "cycle": 0.0,
+                  "rf": 0.3522,
+                  "lstm": 1.0,
+                  "random": 0.9433,
+                  "pair": 0.2481
+                },
+                "monte_carlo_pct": 25.14
+              },
+              "14": {
+                "score": 0.6049,
+                "top_factor": "freq",
+                "reason_text": "全1414回中249回出現（17.61%）と高い出現頻度を記録。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.7286,
+                  "recent": 0.1968,
+                  "drought": 0.3307,
+                  "pull": 0.0,
+                  "consec": 0.4043,
+                  "cycle": 1.0,
+                  "rf": 0.1721,
+                  "lstm": 0.9306,
+                  "random": 0.9656,
+                  "pair": 0.4299
+                },
+                "monte_carlo_pct": 21.43
+              },
+              "23": {
+                "score": 0.4695,
+                "top_factor": "freq",
+                "reason_text": "全1414回中235回出現（16.62%）と高い出現頻度を記録。平均間隔の2.2倍となる13回未出現。高帯(22-31)。",
+                "details": {
+                  "freq": 0.5286,
+                  "recent": 0.053,
+                  "drought": 0.8207,
+                  "pull": 0.0,
+                  "consec": 0.5745,
+                  "cycle": 1.0,
+                  "rf": 0.0205,
+                  "lstm": 0.5211,
+                  "random": 0.7263,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 17.69
+              },
+              "27": {
+                "score": 0.4521,
+                "top_factor": "freq",
+                "reason_text": "全1414回中244回出現（17.26%）と高い出現頻度を記録。直近100回の出現率20.0%で上昇傾向。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6571,
+                  "recent": 0.5491,
+                  "drought": 0.0652,
+                  "pull": 0.3247,
+                  "consec": 0.7234,
+                  "cycle": 0.5,
+                  "rf": 0.5454,
+                  "lstm": 0.6816,
+                  "random": 0.2902,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 21.19
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 79,
+              "avg_sum": 81.0,
+              "sum_std": 18.8,
+              "sum_range": "62〜100"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "pull_heavy": {
+            "mode_name": "引っ張り重視",
+            "numbers": [
+              3,
+              11,
+              14,
+              24,
+              31
+            ],
+            "bonus": 17,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率16.0%で上昇傾向。",
+            "reasons": {
+              "3": {
+                "score": 0.5552,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。低帯(1-10)。",
+                "details": {
+                  "freq": 0.5857,
+                  "recent": 0.5909,
+                  "drought": 0.1265,
+                  "pull": 0.3506,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 0.1266,
+                  "lstm": 0.7447,
+                  "random": 0.6125,
+                  "pair": 1.0
+                },
+                "monte_carlo_pct": 21.91
+              },
+              "11": {
+                "score": 0.532,
+                "top_factor": "pull",
+                "reason_text": "直近5回中1回出現しており、連続出現の勢いあり。他の選出数字との相性も良好。中帯(11-21)。",
+                "details": {
+                  "freq": 1.0,
+                  "recent": 0.4773,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 0.8085,
+                  "cycle": 0.0,
+                  "rf": 0.3522,
+                  "lstm": 1.0,
+                  "random": 0.3769,
+                  "pair": 0.9393
+                },
+                "monte_carlo_pct": 23.42
+              },
+              "14": {
+                "score": 0.4636,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。LSTM予測でも高評価。中帯(11-21)。",
+                "details": {
+                  "freq": 0.7286,
+                  "recent": 0.1968,
+                  "drought": 0.3307,
+                  "pull": 0.0,
+                  "consec": 0.4043,
+                  "cycle": 1.0,
+                  "rf": 0.1721,
+                  "lstm": 0.9306,
+                  "random": 0.8208,
+                  "pair": 0.6601
+                },
+                "monte_carlo_pct": 15.84
+              },
+              "24": {
+                "score": 0.4019,
+                "top_factor": "pull",
+                "reason_text": "直近5回中1回出現しており、連続出現の勢いあり。高帯(22-31)。",
+                "details": {
+                  "freq": 0.4143,
+                  "recent": 0.2877,
+                  "drought": 0.0,
+                  "pull": 0.5195,
+                  "consec": 0.8085,
+                  "cycle": 0.0,
+                  "rf": 0.4264,
+                  "lstm": 0.5689,
+                  "random": 0.5582,
+                  "pair": 0.0304
+                },
+                "monte_carlo_pct": 19.63
+              },
+              "31": {
+                "score": 0.6527,
+                "top_factor": "pull",
+                "reason_text": "直近5回中3回出現しており、連続出現の勢いあり。全期間出現率18.18%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.8429,
+                  "recent": 1.0,
+                  "drought": 0.0,
+                  "pull": 1.0,
+                  "consec": 0.1702,
+                  "cycle": 0.0,
+                  "rf": 0.7109,
+                  "lstm": 0.5912,
+                  "random": 0.9636,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 28.94
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 83,
+              "avg_sum": 81.0,
+              "sum_std": 18.8,
+              "sum_range": "62〜100"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "zone_balanced": {
+            "mode_name": "数字帯バランス重視",
+            "numbers": [
+              1,
+              16,
+              19,
+              22,
+              23
+            ],
+            "bonus": 20,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率22.0%で上昇傾向。平均間隔の2.0倍（12回）未出現。",
+            "reasons": {
+              "1": {
+                "score": 0.3136,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。平均間隔の1.7倍となる12回未出現。低帯(1-10)。",
+                "details": {
+                  "freq": 0.0857,
+                  "recent": 0.4166,
+                  "drought": 0.6522,
+                  "pull": 0.0,
+                  "consec": 0.0,
+                  "cycle": 1.0,
+                  "rf": 0.0141,
+                  "lstm": 0.0721,
+                  "random": 0.208,
+                  "pair": 0.5163
+                },
+                "monte_carlo_pct": 13.33
+              },
+              "16": {
+                "score": 0.5796,
+                "top_factor": "drought",
+                "reason_text": "平均6回間隔に対し16回未出現（2.7倍の遅延）で出現期待が高い。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.5,
+                  "recent": 0.3105,
+                  "drought": 1.0,
+                  "pull": 0.0,
+                  "consec": 0.4468,
+                  "cycle": 1.0,
+                  "rf": 0.252,
+                  "lstm": 0.4739,
+                  "random": 0.8344,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 22.67
+              },
+              "19": {
+                "score": 0.548,
+                "top_factor": "freq",
+                "reason_text": "全1414回中246回出現（17.4%）と高い出現頻度を記録。LSTM予測でも高評価。中帯(11-21)。",
+                "details": {
+                  "freq": 0.6857,
+                  "recent": 0.1364,
+                  "drought": 0.1311,
+                  "pull": 0.1948,
+                  "consec": 0.8298,
+                  "cycle": 0.1111,
+                  "rf": 0.5278,
+                  "lstm": 0.6581,
+                  "random": 0.9369,
+                  "pair": 0.4935
+                },
+                "monte_carlo_pct": 15.56
+              },
+              "22": {
+                "score": 0.3689,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。全期間出現率17.04%と安定して高い。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6143,
+                  "recent": 0.3143,
+                  "drought": 0.3211,
+                  "pull": 0.0,
+                  "consec": 1.0,
+                  "cycle": 0.0,
+                  "rf": 0.1305,
+                  "lstm": 0.6912,
+                  "random": 0.1723,
+                  "pair": 0.9914
+                },
+                "monte_carlo_pct": 13.75
+              },
+              "23": {
+                "score": 0.4884,
+                "top_factor": "drought",
+                "reason_text": "平均6回間隔に対し13回未出現（2.2倍の遅延）で出現期待が高い。約1回周期のタイミング。高帯(22-31)。",
+                "details": {
+                  "freq": 0.5286,
+                  "recent": 0.053,
+                  "drought": 0.8207,
+                  "pull": 0.0,
+                  "consec": 0.5745,
+                  "cycle": 1.0,
+                  "rf": 0.0205,
+                  "lstm": 0.5211,
+                  "random": 0.4568,
+                  "pair": 0.5347
+                },
+                "monte_carlo_pct": 18.86
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "1-2-2",
+              "sum": 81,
+              "avg_sum": 81.0,
+              "sum_std": 18.8,
+              "sum_range": "62〜100"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "pair_heavy": {
+            "mode_name": "ペア重視",
+            "numbers": [
+              3,
+              5,
+              18,
+              21,
+              30
+            ],
+            "bonus": 14,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。出現率17.61%と高頻度。",
+            "reasons": {
+              "3": {
+                "score": 0.3749,
+                "top_factor": "cycle",
+                "reason_text": "約1回周期で出現するパターンを検出、次の出現タイミングに該当。LSTM予測でも高評価。低帯(1-10)。",
+                "details": {
+                  "freq": 0.5857,
+                  "recent": 0.5909,
+                  "drought": 0.1265,
+                  "pull": 0.3506,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 0.1266,
+                  "lstm": 0.7447,
+                  "random": 0.3708,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 21.12
+              },
+              "5": {
+                "score": 0.3159,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約1回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.4,
+                  "recent": 0.3295,
+                  "drought": 0.1809,
+                  "pull": 0.1558,
+                  "consec": 0.6809,
+                  "cycle": 1.0,
+                  "rf": 0.0186,
+                  "lstm": 0.5747,
+                  "random": 0.0646,
+                  "pair": 0.4046
+                },
+                "monte_carlo_pct": 16.33
+              },
+              "18": {
+                "score": 0.42,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。中帯(11-21)。",
+                "details": {
+                  "freq": 0.3857,
+                  "recent": 0.2045,
+                  "drought": 0.0599,
+                  "pull": 0.4286,
+                  "consec": 0.6809,
+                  "cycle": 0.5,
+                  "rf": 0.2231,
+                  "lstm": 0.3411,
+                  "random": 0.769,
+                  "pair": 0.2397
+                },
+                "monte_carlo_pct": 13.69
+              },
+              "21": {
+                "score": 0.5851,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.6429,
+                  "recent": 0.375,
+                  "drought": 0.3227,
+                  "pull": 0.0,
+                  "consec": 0.4894,
+                  "cycle": 1.0,
+                  "rf": 0.3956,
+                  "lstm": 0.7092,
+                  "random": 0.8181,
+                  "pair": 0.5714
+                },
+                "monte_carlo_pct": 18.7
+              },
+              "30": {
+                "score": 0.5914,
+                "top_factor": "pair",
+                "reason_text": "選出済みの他の数字との同時出現回数が多く、相性が良い。約1回周期のタイミング。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6429,
+                  "recent": 0.4318,
+                  "drought": 0.2577,
+                  "pull": 0.1039,
+                  "consec": 0.9149,
+                  "cycle": 1.0,
+                  "rf": 0.3315,
+                  "lstm": 0.6415,
+                  "random": 0.6715,
+                  "pair": 0.6866
+                },
+                "monte_carlo_pct": 21.23
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-2-1",
+              "sum": 77,
+              "avg_sum": 81.0,
+              "sum_std": 18.8,
+              "sum_range": "62〜100"
+            },
+            "match_count": null,
+            "matched_numbers": null,
+            "bonus_matched": null
+          },
+          "ml_heavy": {
+            "mode_name": "AI(RF+LSTM)重視",
+            "numbers": [
+              3,
+              5,
+              16,
+              27,
+              28
+            ],
+            "bonus": 29,
+            "bonus_reason": "本数字5個に次ぐ総合スコアで選出。直近100回の出現率24.0%で上昇傾向。平均間隔の1.9倍（12回）未出現。",
+            "reasons": {
+              "3": {
+                "score": 0.5778,
+                "top_factor": "lstm",
+                "reason_text": "LSTMが時系列パターンから出現確率17.0%と予測。約1回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.5857,
+                  "recent": 0.5909,
+                  "drought": 0.1265,
+                  "pull": 0.3506,
+                  "consec": 1.0,
+                  "cycle": 1.0,
+                  "rf": 0.1266,
+                  "lstm": 0.7447,
+                  "random": 0.9363,
+                  "pair": 0.4882
+                },
+                "monte_carlo_pct": 19.68
+              },
+              "5": {
+                "score": 0.4962,
+                "top_factor": "lstm",
+                "reason_text": "LSTMが時系列パターンから出現確率16.1%と予測。約1回周期のタイミング。低帯(1-10)。",
+                "details": {
+                  "freq": 0.4,
+                  "recent": 0.3295,
+                  "drought": 0.1809,
+                  "pull": 0.1558,
+                  "consec": 0.6809,
+                  "cycle": 1.0,
+                  "rf": 0.0186,
+                  "lstm": 0.5747,
+                  "random": 0.9988,
+                  "pair": 0.4455
+                },
+                "monte_carlo_pct": 14.84
+              },
+              "16": {
+                "score": 0.5,
+                "top_factor": "lstm",
+                "reason_text": "LSTMが時系列パターンから出現確率15.5%と予測。約1回周期のタイミング。中帯(11-21)。",
+                "details": {
+                  "freq": 0.5,
+                  "recent": 0.3105,
+                  "drought": 1.0,
+                  "pull": 0.0,
+                  "consec": 0.4468,
+                  "cycle": 1.0,
+                  "rf": 0.252,
+                  "lstm": 0.4739,
+                  "random": 0.7165,
+                  "pair": 0.2989
+                },
+                "monte_carlo_pct": 18.71
+              },
+              "27": {
+                "score": 0.6117,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率24.0%と高く予測。LSTM予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 0.6571,
+                  "recent": 0.5491,
+                  "drought": 0.0652,
+                  "pull": 0.3247,
+                  "consec": 0.7234,
+                  "cycle": 0.5,
+                  "rf": 0.5454,
+                  "lstm": 0.6816,
+                  "random": 0.9821,
+                  "pair": 0.0
+                },
+                "monte_carlo_pct": 22.1
+              },
+              "28": {
+                "score": 0.3976,
+                "top_factor": "rf",
+                "reason_text": "ランダムフォレストが出現確率21.1%と高く予測。LSTM予測でも高評価。高帯(22-31)。",
+                "details": {
+                  "freq": 0.4143,
+                  "recent": 0.5945,
+                  "drought": 0.0603,
+                  "pull": 0.4286,
+                  "consec": 1.0,
+                  "cycle": 0.0,
+                  "rf": 0.4314,
+                  "lstm": 0.5196,
+                  "random": 0.3671,
+                  "pair": 0.3992
+                },
+                "monte_carlo_pct": 16.6
+              }
+            },
+            "metrics": {
+              "odd_even": "3:2",
+              "zones": "2-1-2",
+              "sum": 79,
               "avg_sum": 81.0,
               "sum_std": 18.8,
               "sum_range": "62〜100"
